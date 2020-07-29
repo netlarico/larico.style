@@ -1,0 +1,39 @@
+@media (min-width: $lg) {
+    .container-lg {
+        max-width: $lg;
+    }
+
+    // POSITION
+    @import 'lg/_position';
+
+    // PADDING
+    @import 'lg/_padding';
+
+    // MARGIN
+    @import 'lg/_margin';
+
+    // TOP / RIGHT / BOTTOM / LEFT
+    @import 'lg/_top-right-bottom-left';
+
+    // FONT SIZE
+    @import 'lg/_font-size';
+
+    // TEXT-ALIGN
+    @import 'lg/_text-align';
+
+    // DISPLAY
+    @import 'lg/_display';
+
+    // DISPLAY GRID
+    @import 'lg/_display-grid';
+
+    // DISPLAY FLEX
+    @import 'lg/_display-flex';
+
+    // FLOAT
+    @import 'lg/_float';
+
+    // WIDTH & HEIGHT
+    @import 'lg/_width';
+    @import 'lg/_height';
+}

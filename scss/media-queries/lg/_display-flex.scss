@@ -1,0 +1,183 @@
+.df-lg {
+    display: flex;
+}
+.dif-lg {
+    display: inline-flex;
+}
+
+// Flex Wrap
+.fww-lg {
+    flex-wrap: wrap;
+}
+.fwn-lg {
+    flex-wrap: nowrap;
+}
+.fwwr-lg {
+    flex-wrap: wrap-reverse;
+}
+
+// FLEX DIRECTION
+.fdr-lg {
+    flex-direction: row;
+}
+.fdrr-lg {
+    flex-direction: row-reverse;
+}
+.fdc-lg {
+    flex-direction: column;
+}
+.fdcr-lg {
+    flex-direction: column-reverse;
+}
+
+// Justify Content
+.jcfs-lg {
+    justify-content: flex-start;
+}
+.jcc-lg {
+    justify-content: center;
+}
+.jcfe-lg {
+    justify-content: flex-end;
+}
+.jcsb-lg {
+    justify-content: space-between;
+}
+.jcsa-lg {
+    justify-content: space-around;
+}
+.jcse-lg {
+    justify-content: space-evenly;
+}
+
+// Align Content
+
+.acfs-lg {
+    align-content: flex-start;
+}
+.acc-lg {
+    align-content: center;
+}
+.acfe-lg {
+    align-content: flex-end;
+}
+.acsb-lg {
+    align-content: space-between;
+}
+.acsa-lg {
+    align-content: space-around;
+}
+
+// Align Self
+.asa-lg {
+    align-self: auto;
+}
+.asfs-lg {
+    align-self: flex-start;
+}
+.asc-lg {
+    align-self: center;
+}
+.asfe-lg {
+    align-self: flex-end;
+}
+.ass-lg {
+    align-self: stretch;
+}
+
+// Align Items
+
+.aic-lg {
+    align-items: center;
+}
+.ais-lg {
+    align-items: flex-start;
+}
+.aie-lg {
+    align-items: flex-end;
+}
+.aib-lg {
+    align-items: baseline;
+}
+.ais-lg {
+    align-items: stretch;
+}
+
+// Flex
+
+.fi-lg {
+    flex: 0 1 auto;
+}
+.f1-lg {
+    flex: 1 1 0%;
+}
+.fa-lg {
+    flex: 1 1 auto;
+}
+.fn-lg {
+    flex: none;
+}
+
+// Flex Grow
+
+.fg1-lg {
+    flex-grow: 1;
+}
+.fg0-lg {
+    flex-grow: 0;
+}
+
+// Flex Shrink
+.fs1-lg {
+    flex-shrink: 1;
+}
+.fs0-lg {
+    flex-shrink: 0;
+}
+
+// Order
+.ofirst-lg {
+    order: -9999;
+}
+.olast-lg {
+    order: 9999;
+}
+.o0-lg {
+    order: 0;
+}
+.o1-lg {
+    order: 1;
+}
+.o2-lg {
+    order: 2;
+}
+.o3-lg {
+    order: 3;
+}
+.o4-lg {
+    order: 4;
+}
+.o5-lg {
+    order: 5;
+}
+.o6-lg {
+    order: 6;
+}
+.o7-lg {
+    order: 7;
+}
+.o8-lg {
+    order: 8;
+}
+.o9-lg {
+    order: 9;
+}
+.o10-lg {
+    order: 10;
+}
+.o11-lg {
+    order: 11;
+}
+.o12-lg {
+    order: 12;
+}

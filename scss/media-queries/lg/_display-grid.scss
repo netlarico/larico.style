@@ -1,0 +1,167 @@
+// DISPLAY GRID
+.dg-lg {
+    display: grid;
+}
+
+/* gaps */
+
+.gap1-lg {
+    gap: $px8;
+}
+.gap2-lg {
+    gap: $px16;
+}
+.gap3-lg {
+    gap: $px24;
+}
+.gap4-lg {
+    gap: $px32;
+}
+.gap5-lg {
+    gap: $px40;
+}
+.gap6-lg {
+    gap: $px48;
+}
+.gap7-lg {
+    gap: $px56;
+}
+.gap8-lg {
+    gap: $px64;
+}
+
+.rg1-lg {
+    row-gap: $px8;
+}
+.rg2-lg {
+    row-gap: $px16;
+}
+.rg3-lg {
+    row-gap: $px24;
+}
+.rg4-lg {
+    row-gap: $px32;
+}
+.rg5-lg {
+    row-gap: $px40;
+}
+.rg6-lg {
+    row-gap: $px48;
+}
+.rg7-lg {
+    row-gap: $px56;
+}
+.rg8-lg {
+    row-gap: $px64;
+}
+
+.cg1-lg {
+    column-gap: $px8;
+}
+.cg2-lg {
+    column-gap: $px16;
+}
+.cg3-lg {
+    column-gap: $px24;
+}
+.cg4-lg {
+    column-gap: $px32;
+}
+.cg5-lg {
+    column-gap: $px40;
+}
+.cg6-lg {
+    column-gap: $px48;
+}
+.cg7-lg {
+    column-gap: $px56;
+}
+.cg8-lg {
+    column-gap: $px64;
+}
+
+.gtc1-lg {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.gtc2-lg {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.gtc3-lg {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.gtc4-lg {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.gtc5-lg {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.gtc6-lg {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.gtc7-lg {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+.gtc8-lg {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.gtc9-lg {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+.gtc10-lg {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+.gtc11-lg {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+.gtc12-lg {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* grid columns */
+
+.gc1-lg {
+    grid-column: span 1 / span 1;
+}
+
+.gc2-lg {
+    grid-column: span 2 / span 2;
+}
+
+.gc3-lg {
+    grid-column: span 3 / span 3;
+}
+
+.gc4-lg {
+    grid-column: span 4 / span 4;
+}
+
+.gc5-lg {
+    grid-column: span 5 / span 5;
+}
+
+.gc6-lg {
+    grid-column: span 6 / span 6;
+}
+
+.gc7-lg {
+    grid-column: span 7 / span 7;
+}
+
+.gc8-lg {
+    grid-column: span 8 / span 8;
+}
+
+.gc9-lg {
+    grid-column: span 9 / span 9;
+}
+
+.gc10-lg {
+    grid-column: span 10 / span 10;
+}
+
+.gc11-lg {
+    grid-column: span 11 / span 11;
+}
+.gc12-lg {
+    grid-column: span 12 / span 12;
+}

@@ -1,0 +1,183 @@
+.df-md {
+    display: flex;
+}
+.dif-md {
+    display: inline-flex;
+}
+
+// Flex Wrap
+.fww-md {
+    flex-wrap: wrap;
+}
+.fwn-md {
+    flex-wrap: nowrap;
+}
+.fwwr-md {
+    flex-wrap: wrap-reverse;
+}
+
+// FLEX DIRECTION
+.fdr-md {
+    flex-direction: row;
+}
+.fdrr-md {
+    flex-direction: row-reverse;
+}
+.fdc-md {
+    flex-direction: column;
+}
+.fdcr-md {
+    flex-direction: column-reverse;
+}
+
+// Justify Content
+.jcfs-md {
+    justify-content: flex-start;
+}
+.jcc-md {
+    justify-content: center;
+}
+.jcfe-md {
+    justify-content: flex-end;
+}
+.jcsb-md {
+    justify-content: space-between;
+}
+.jcsa-md {
+    justify-content: space-around;
+}
+.jcse-md {
+    justify-content: space-evenly;
+}
+
+// Align Content
+
+.acfs-md {
+    align-content: flex-start;
+}
+.acc-md {
+    align-content: center;
+}
+.acfe-md {
+    align-content: flex-end;
+}
+.acsb-md {
+    align-content: space-between;
+}
+.acsa-md {
+    align-content: space-around;
+}
+
+// Align Self
+.asa-md {
+    align-self: auto;
+}
+.asfs-md {
+    align-self: flex-start;
+}
+.asc-md {
+    align-self: center;
+}
+.asfe-md {
+    align-self: flex-end;
+}
+.ass-md {
+    align-self: stretch;
+}
+
+// Align Items
+
+.aic-md {
+    align-items: center;
+}
+.ais-md {
+    align-items: flex-start;
+}
+.aie-md {
+    align-items: flex-end;
+}
+.aib-md {
+    align-items: baseline;
+}
+.ais-md {
+    align-items: stretch;
+}
+
+// Flex
+
+.fi-md {
+    flex: 0 1 auto;
+}
+.f1-md {
+    flex: 1 1 0%;
+}
+.fa-md {
+    flex: 1 1 auto;
+}
+.fn-md {
+    flex: none;
+}
+
+// Flex Grow
+
+.fg1-md {
+    flex-grow: 1;
+}
+.fg0-md {
+    flex-grow: 0;
+}
+
+// Flex Shrink
+.fs1-md {
+    flex-shrink: 1;
+}
+.fs0-md {
+    flex-shrink: 0;
+}
+
+// Order
+.ofirst-md {
+    order: -9999;
+}
+.olast-md {
+    order: 9999;
+}
+.o0-md {
+    order: 0;
+}
+.o1-md {
+    order: 1;
+}
+.o2-md {
+    order: 2;
+}
+.o3-md {
+    order: 3;
+}
+.o4-md {
+    order: 4;
+}
+.o5-md {
+    order: 5;
+}
+.o6-md {
+    order: 6;
+}
+.o7-md {
+    order: 7;
+}
+.o8-md {
+    order: 8;
+}
+.o9-md {
+    order: 9;
+}
+.o10-md {
+    order: 10;
+}
+.o11-md {
+    order: 11;
+}
+.o12-md {
+    order: 12;
+}

@@ -1,0 +1,167 @@
+// DISPLAY GRID
+.dg {
+    display: grid;
+}
+
+/* gaps */
+
+.gap1 {
+    gap: $px8;
+}
+.gap2 {
+    gap: $px16;
+}
+.gap3 {
+    gap: $px24;
+}
+.gap4 {
+    gap: $px32;
+}
+.gap5 {
+    gap: $px40;
+}
+.gap6 {
+    gap: $px48;
+}
+.gap7 {
+    gap: $px56;
+}
+.gap8 {
+    gap: $px64;
+}
+
+.rg1 {
+    row-gap: $px8;
+}
+.rg2 {
+    row-gap: $px16;
+}
+.rg3 {
+    row-gap: $px24;
+}
+.rg4 {
+    row-gap: $px32;
+}
+.rg5 {
+    row-gap: $px40;
+}
+.rg6 {
+    row-gap: $px48;
+}
+.rg7 {
+    row-gap: $px56;
+}
+.rg8 {
+    row-gap: $px64;
+}
+
+.cg1 {
+    column-gap: $px8;
+}
+.cg2 {
+    column-gap: $px16;
+}
+.cg3 {
+    column-gap: $px24;
+}
+.cg4 {
+    column-gap: $px32;
+}
+.cg5 {
+    column-gap: $px40;
+}
+.cg6 {
+    column-gap: $px48;
+}
+.cg7 {
+    column-gap: $px56;
+}
+.cg8 {
+    column-gap: $px64;
+}
+
+.gtc1 {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.gtc2 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.gtc3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.gtc4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.gtc5 {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.gtc6 {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.gtc7 {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+.gtc8 {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.gtc9 {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+.gtc10 {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+.gtc11 {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+.gtc12 {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* grid columns */
+
+.gc1 {
+    grid-column: span 1 / span 1;
+}
+
+.gc2 {
+    grid-column: span 2 / span 2;
+}
+
+.gc3 {
+    grid-column: span 3 / span 3;
+}
+
+.gc4 {
+    grid-column: span 4 / span 4;
+}
+
+.gc5 {
+    grid-column: span 5 / span 5;
+}
+
+.gc6 {
+    grid-column: span 6 / span 6;
+}
+
+.gc7 {
+    grid-column: span 7 / span 7;
+}
+
+.gc8 {
+    grid-column: span 8 / span 8;
+}
+
+.gc9 {
+    grid-column: span 9 / span 9;
+}
+
+.gc10 {
+    grid-column: span 10 / span 10;
+}
+
+.gc11 {
+    grid-column: span 11 / span 11;
+}
+.gc12 {
+    grid-column: span 12 / span 12;
+}

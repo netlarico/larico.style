@@ -1,0 +1,167 @@
+// DISPLAY GRID
+.dg-xl {
+    display: grid;
+}
+
+/* gaps */
+
+.gap1-xl {
+    gap: $px8;
+}
+.gap2-xl {
+    gap: $px16;
+}
+.gap3-xl {
+    gap: $px24;
+}
+.gap4-xl {
+    gap: $px32;
+}
+.gap5-xl {
+    gap: $px40;
+}
+.gap6-xl {
+    gap: $px48;
+}
+.gap7-xl {
+    gap: $px56;
+}
+.gap8-xl {
+    gap: $px64;
+}
+
+.rg1-xl {
+    row-gap: $px8;
+}
+.rg2-xl {
+    row-gap: $px16;
+}
+.rg3-xl {
+    row-gap: $px24;
+}
+.rg4-xl {
+    row-gap: $px32;
+}
+.rg5-xl {
+    row-gap: $px40;
+}
+.rg6-xl {
+    row-gap: $px48;
+}
+.rg7-xl {
+    row-gap: $px56;
+}
+.rg8-xl {
+    row-gap: $px64;
+}
+
+.cg1-xl {
+    column-gap: $px8;
+}
+.cg2-xl {
+    column-gap: $px16;
+}
+.cg3-xl {
+    column-gap: $px24;
+}
+.cg4-xl {
+    column-gap: $px32;
+}
+.cg5-xl {
+    column-gap: $px40;
+}
+.cg6-xl {
+    column-gap: $px48;
+}
+.cg7-xl {
+    column-gap: $px56;
+}
+.cg8-xl {
+    column-gap: $px64;
+}
+
+.gtc1-xl {
+    grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+.gtc2-xl {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+.gtc3-xl {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+.gtc4-xl {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+}
+.gtc5-xl {
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+}
+.gtc6-xl {
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+.gtc7-xl {
+    grid-template-columns: repeat(7, minmax(0, 1fr));
+}
+.gtc8-xl {
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+}
+.gtc9-xl {
+    grid-template-columns: repeat(9, minmax(0, 1fr));
+}
+.gtc10-xl {
+    grid-template-columns: repeat(10, minmax(0, 1fr));
+}
+.gtc11-xl {
+    grid-template-columns: repeat(11, minmax(0, 1fr));
+}
+.gtc12-xl {
+    grid-template-columns: repeat(12, minmax(0, 1fr));
+}
+
+/* grid columns */
+
+.gc1-xl {
+    grid-column: span 1 / span 1;
+}
+
+.gc2-xl {
+    grid-column: span 2 / span 2;
+}
+
+.gc3-xl {
+    grid-column: span 3 / span 3;
+}
+
+.gc4-xl {
+    grid-column: span 4 / span 4;
+}
+
+.gc5-xl {
+    grid-column: span 5 / span 5;
+}
+
+.gc6-xl {
+    grid-column: span 6 / span 6;
+}
+
+.gc7-xl {
+    grid-column: span 7 / span 7;
+}
+
+.gc8-xl {
+    grid-column: span 8 / span 8;
+}
+
+.gc9-xl {
+    grid-column: span 9 / span 9;
+}
+
+.gc10-xl {
+    grid-column: span 10 / span 10;
+}
+
+.gc11-xl {
+    grid-column: span 11 / span 11;
+}
+.gc12-xl {
+    grid-column: span 12 / span 12;
+}

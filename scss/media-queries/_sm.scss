@@ -1,0 +1,39 @@
+@media (min-width: $sm) {
+    .container-sm {
+        max-width: $sm;
+    }
+
+    // POSITION
+    @import 'sm/_position';
+
+    // PADDING
+    @import 'sm/_padding';
+
+    // MARGIN
+    @import 'sm/_margin';
+
+    // TOP / RIGHT / BOTTOM / LEFT
+    @import 'sm/_top-right-bottom-left';
+
+    // FONT SIZE
+    @import 'sm/_font-size';
+
+    // TEXT-ALIGN
+    @import 'sm/_text-align';
+
+    // DISPLAY
+    @import 'sm/_display';
+
+    // DISPLAY GRID
+    @import 'sm/_display-grid';
+
+    // DISPLAY FLEX
+    @import 'sm/_display-flex';
+
+    // FLOAT
+    @import 'sm/_float';
+
+    // WIDTH & HEIGHT
+    @import 'sm/_width';
+    @import 'sm/_height';
+}

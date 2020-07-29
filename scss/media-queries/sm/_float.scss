@@ -1,0 +1,16 @@
+.fr-sm {
+    float: right;
+}
+.fl-sm {
+    float: left;
+}
+.fn-sm {
+    float: none;
+}
+.clear-sm {
+    &:after {
+        content: '';
+        width: 100%;
+        clear: both;
+    }
+}

@@ -1,0 +1,183 @@
+.df-xl {
+    display: flex;
+}
+.dif-xl {
+    display: inline-flex;
+}
+
+// Flex Wrap
+.fww-xl {
+    flex-wrap: wrap;
+}
+.fwn-xl {
+    flex-wrap: nowrap;
+}
+.fwwr-xl {
+    flex-wrap: wrap-reverse;
+}
+
+// FLEX DIRECTION
+.fdr-xl {
+    flex-direction: row;
+}
+.fdrr-xl {
+    flex-direction: row-reverse;
+}
+.fdc-xl {
+    flex-direction: column;
+}
+.fdcr-xl {
+    flex-direction: column-reverse;
+}
+
+// Justify Content
+.jcfs-xl {
+    justify-content: flex-start;
+}
+.jcc-xl {
+    justify-content: center;
+}
+.jcfe-xl {
+    justify-content: flex-end;
+}
+.jcsb-xl {
+    justify-content: space-between;
+}
+.jcsa-xl {
+    justify-content: space-around;
+}
+.jcse-xl {
+    justify-content: space-evenly;
+}
+
+// Align Content
+
+.acfs-xl {
+    align-content: flex-start;
+}
+.acc-xl {
+    align-content: center;
+}
+.acfe-xl {
+    align-content: flex-end;
+}
+.acsb-xl {
+    align-content: space-between;
+}
+.acsa-xl {
+    align-content: space-around;
+}
+
+// Align Self
+.asa-xl {
+    align-self: auto;
+}
+.asfs-xl {
+    align-self: flex-start;
+}
+.asc-xl {
+    align-self: center;
+}
+.asfe-xl {
+    align-self: flex-end;
+}
+.ass-xl {
+    align-self: stretch;
+}
+
+// Align Items
+
+.aic-xl {
+    align-items: center;
+}
+.ais-xl {
+    align-items: flex-start;
+}
+.aie-xl {
+    align-items: flex-end;
+}
+.aib-xl {
+    align-items: baseline;
+}
+.ais-xl {
+    align-items: stretch;
+}
+
+// Flex
+
+.fi-xl {
+    flex: 0 1 auto;
+}
+.f1-xl {
+    flex: 1 1 0%;
+}
+.fa-xl {
+    flex: 1 1 auto;
+}
+.fn-xl {
+    flex: none;
+}
+
+// Flex Grow
+
+.fg1-xl {
+    flex-grow: 1;
+}
+.fg0-xl {
+    flex-grow: 0;
+}
+
+// Flex Shrink
+.fs1-xl {
+    flex-shrink: 1;
+}
+.fs0-xl {
+    flex-shrink: 0;
+}
+
+// Order
+.ofirst-xl {
+    order: -9999;
+}
+.olast-xl {
+    order: 9999;
+}
+.o0-xl {
+    order: 0;
+}
+.o1-xl {
+    order: 1;
+}
+.o2-xl {
+    order: 2;
+}
+.o3-xl {
+    order: 3;
+}
+.o4-xl {
+    order: 4;
+}
+.o5-xl {
+    order: 5;
+}
+.o6-xl {
+    order: 6;
+}
+.o7-xl {
+    order: 7;
+}
+.o8-xl {
+    order: 8;
+}
+.o9-xl {
+    order: 9;
+}
+.o10-xl {
+    order: 10;
+}
+.o11-xl {
+    order: 11;
+}
+.o12-xl {
+    order: 12;
+}

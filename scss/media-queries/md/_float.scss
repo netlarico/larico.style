@@ -1,0 +1,16 @@
+.fr-md {
+    float: right;
+}
+.fl-md {
+    float: left;
+}
+.fn-md {
+    float: none;
+}
+.clear-md {
+    &:after {
+        content: '';
+        width: 100%;
+        clear: both;
+    }
+}

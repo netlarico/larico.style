@@ -1,0 +1,39 @@
+@media (min-width: $xl) {
+    .container-xl {
+        max-width: $xl;
+    }
+
+    // POSITION
+    @import 'xl/_position';
+
+    // PADDING
+    @import 'xl/_padding';
+
+    // MARGIN
+    @import 'xl/_margin';
+
+    // TOP / RIGHT / BOTTOM / LEFT
+    @import 'xl/_top-right-bottom-left';
+
+    // FONT SIZE
+    @import 'xl/_font-size';
+
+    // TEXT-ALIGN
+    @import 'xl/_text-align';
+
+    // DISPLAY
+    @import 'xl/_display';
+
+    // DISPLAY GRID
+    @import 'xl/_display-grid';
+
+    // DISPLAY FLEX
+    @import 'xl/_display-flex';
+
+    // FLOAT
+    @import 'xl/_float';
+
+    // WIDTH & HEIGHT
+    @import 'xl/_width';
+    @import 'xl/_height';
+}

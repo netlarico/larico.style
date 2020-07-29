@@ -1,0 +1,16 @@
+body {
+    margin: 0;
+    font-family: $primary-font;
+}
+*,
+:after,
+:before {
+    box-sizing: border-box;
+}
+a {
+    transition: all 0.3s ease-in-out;
+}
+
+button {
+    cursor: pointer;
+}

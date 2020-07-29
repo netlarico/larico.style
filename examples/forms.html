@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Forms</title>
+        <link rel="stylesheet" href="../dist/lstyle.min.css" />
+    </head>
+    <body>
+        <div class="container-sm p3">
+            <form class="forms dg gap2 gtc2-sm" action="">
+                <div class="fields">
+                    <label class="db" for="fname">First name:</label>
+                    <input
+                        class="field transition rounded bw1 bss bc-gray p1 wfull ffi"
+                        type="text"
+                        id="fname"
+                        name="fname"
+                    />
+                </div>
+
+                <div class="fields">
+                    <label class="db" for="lname">Last name:</label>
+                    <input
+                        class="field transition rounded bw1 bss bc-gray p1 wfull ffi"
+                        type="text"
+                        id="lname"
+                        name="lname"
+                    />
+                </div>
+
+                <div class="fields">
+                    <label class="db" for="phone">Phone:</label>
+                    <input
+                        class="field transition rounded bw1 bss bc-gray p1 wfull ffi"
+                        type="tel"
+                        id="phone"
+                        name="phone"
+                    />
+                </div>
+
+                <div class="fields">
+                    <label class="db" for="email">Email:</label>
+                    <input
+                        class="field transition rounded bw1 bss bc-gray p1 wfull ffi"
+                        type="email"
+                        id="email"
+                        name="email"
+                    />
+                </div>
+
+                <div class="fields gc2-sm">
+                    <label class="db" for="textarea">Comments:</label>
+                    <textarea
+                        class="field transition rounded bw1 bss bc-gray p1 wfull ffi"
+                        name="textarea"
+                        id="textarea"
+                        cols="30"
+                        rows="4"
+                    ></textarea>
+                </div>
+
+                <div class="fields gc2-sm radio">
+                    <h3 class="db fwn fs16 mt0 mb1">Radio Options</h3>
+
+                    <input type="radio" id="male" name="gender" value="male" />
+                    <label class="mr3" for="male">Male</label>
+
+                    <input
+                        type="radio"
+                        id="female"
+                        name="gender"
+                        value="female"
+                    />
+                    <label for="female">Female</label>
+                </div>
+
+                <div class="fields gc2-sm mb2 checkbox">
+                    <h3 class="db fwn fs16 mb1">Checkbox Options</h3>
+
+                    <input type="checkbox" id="opt1" value="opt1" />
+                    <label class="mr3" for="opt1">Opt1</label>
+
+                    <input type="checkbox" id="opt2" value="opt2" />
+                    <label for="opt2">Opt2</label>
+                </div>
+
+                <div class="fields gc2-sm">
+                    <button
+                        class="bg-primary wfull wa-sm h40 px8 white bw1 bss bc-inherit border transition rounded ttu ffi hover-bg-secondary"
+                    >
+                        Submit
+                    </button>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

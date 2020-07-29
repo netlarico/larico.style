@@ -1,0 +1,16 @@
+.fr-lg {
+    float: right;
+}
+.fl-lg {
+    float: left;
+}
+.fn-lg {
+    float: none;
+}
+.clear-lg {
+    &:after {
+        content: '';
+        width: 100%;
+        clear: both;
+    }
+}

@@ -1,0 +1,168 @@
+.primary {
+    color: $primary;
+}
+.secondary {
+    color: $secondary;
+}
+.orange {
+    color: $orange;
+}
+.green {
+    color: $green;
+}
+.dark {
+    color: $dark;
+}
+.white {
+    color: $white;
+}
+.red {
+    color: $red;
+}
+.gray {
+    color: $gray;
+}
+.skyblue {
+    color: $skyblue;
+}
+
+.ci {
+    color: inherit;
+}
+// HOVER COLORS
+.hover-primary {
+    &:hover {
+        color: $primary;
+    }
+}
+.hover-secondary {
+    &:hover {
+        color: $secondary;
+    }
+}
+.hover-white {
+    &:hover {
+        color: $white;
+    }
+}
+.a-tdn {
+    a {
+        text-decoration: none;
+    }
+}
+.a-primary {
+    a {
+        color: $primary;
+    }
+}
+.a-green {
+    a {
+        color: $green;
+    }
+}
+
+.hover-a-secondary {
+    a {
+        &:hover {
+            color: $secondary;
+        }
+    }
+}
+// BACKGROUND COLORS
+.bg-primary {
+    background-color: $primary;
+}
+.bg-secondary {
+    background-color: $secondary;
+}
+.bg-white {
+    background-color: $white;
+}
+.bg-orange {
+    background-color: $orange;
+}
+.bg-green {
+    background-color: $green;
+}
+.bg-dark {
+    background-color: $dark;
+}
+.bg-red {
+    background-color: $red;
+}
+.bg-gray {
+    background-color: $gray;
+}
+.bg-skyblue {
+    background-color: $skyblue;
+}
+
+// HOVER BACKGROUND COLORS
+
+.hover-bg-primary {
+    &:hover {
+        background-color: $primary;
+    }
+}
+.hover-bg-secondary {
+    &:hover {
+        background-color: $secondary;
+    }
+}
+.hover-bg-orange {
+    &:hover {
+        background-color: $orange;
+    }
+}
+.hover-bg-green {
+    &:hover {
+        background-color: $green;
+    }
+}
+.hover-bg-dark {
+    &:hover {
+        background-color: $dark;
+    }
+}
+.hover-bg-red {
+    &:hover {
+        background-color: $red;
+    }
+}
+
+// BUTTONS DEFAULT
+.bn {
+    background: none;
+}
+.bct {
+    background-color: transparent;
+}
+
+// BORDER COLORS
+.bc-inherit {
+    border-color: inherit;
+}
+.bc-primary {
+    border-color: $primary;
+}
+.bc-secondary {
+    border-color: $secondary;
+}
+.bc-orange {
+    border-color: $orange;
+}
+.bc-green {
+    border-color: $green;
+}
+.bc-dark {
+    border-color: $dark;
+}
+.bc-red {
+    border-color: $red;
+}
+.bc-gray {
+    border-color: $gray;
+}
+.bc-skyblue {
+    border-color: $skyblue;
+}

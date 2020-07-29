@@ -1,0 +1,16 @@
+.fr-xl {
+    float: right;
+}
+.fl-xl {
+    float: left;
+}
+.fn-xl {
+    float: none;
+}
+.clear-xl {
+    &:after {
+        content: '';
+        width: 100%;
+        clear: both;
+    }
+}

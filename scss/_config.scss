@@ -1,0 +1,53 @@
+// small 13px
+// medium 16px (default)
+// large 18px
+// x-large 24px
+// xx-large 32px
+// xxx-large 48px
+
+// FONT FAMILY
+$primary-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
+    Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
+    Ubuntu;
+
+// COLORS
+
+$primary: #3153d8;
+$secondary: #333;
+$orange: #ffa07a;
+$green: #19b57f;
+$skyblue: #9edbff;
+$dark: #000;
+$white: #fff;
+$red: #f34d4d;
+$gray: #ccc;
+
+$focus: blue;
+
+// MEDIA QUERYS
+
+$xs: 640px;
+$sm: 768px;
+$md: 1024px;
+$lg: 1330px;
+$xl: 1660px;
+
+// Sizes
+
+// px8  => 8px;
+// px16 =>  16px;
+// px24 =>  24px;
+// px32 =>  32px;
+// px40 =>  40px;
+// px48 =>  48px;
+// px56 =>  56px;
+// px64 =>  64px;
+
+$px8: 0.5rem;
+$px16: 1rem;
+$px24: 1.5rem;
+$px32: 2rem;
+$px40: 2.5rem;
+$px48: 3rem;
+$px56: 3.5rem;
+$px64: 4rem;

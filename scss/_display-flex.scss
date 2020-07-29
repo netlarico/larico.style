@@ -1,0 +1,183 @@
+.df {
+    display: flex;
+}
+.dif {
+    display: inline-flex;
+}
+
+// Flex Wrap
+.fww {
+    flex-wrap: wrap;
+}
+.fwn {
+    flex-wrap: nowrap;
+}
+.fwwr {
+    flex-wrap: wrap-reverse;
+}
+
+// FLEX DIRECTION
+.fdr {
+    flex-direction: row;
+}
+.fdrr {
+    flex-direction: row-reverse;
+}
+.fdc {
+    flex-direction: column;
+}
+.fdcr {
+    flex-direction: column-reverse;
+}
+
+// Justify Content
+.jcfs {
+    justify-content: flex-start;
+}
+.jcc {
+    justify-content: center;
+}
+.jcfe {
+    justify-content: flex-end;
+}
+.jcsb {
+    justify-content: space-between;
+}
+.jcsa {
+    justify-content: space-around;
+}
+.jcse {
+    justify-content: space-evenly;
+}
+
+// Align Content
+
+.acfs {
+    align-content: flex-start;
+}
+.acc {
+    align-content: center;
+}
+.acfe {
+    align-content: flex-end;
+}
+.acsb {
+    align-content: space-between;
+}
+.acsa {
+    align-content: space-around;
+}
+
+// Align Self
+.asa {
+    align-self: auto;
+}
+.asfs {
+    align-self: flex-start;
+}
+.asc {
+    align-self: center;
+}
+.asfe {
+    align-self: flex-end;
+}
+.ass {
+    align-self: stretch;
+}
+
+// Align Items
+
+.aic {
+    align-items: center;
+}
+.ais {
+    align-items: flex-start;
+}
+.aie {
+    align-items: flex-end;
+}
+.aib {
+    align-items: baseline;
+}
+.ais {
+    align-items: stretch;
+}
+
+// Flex
+
+.fi {
+    flex: 0 1 auto;
+}
+.f1 {
+    flex: 1 1 0%;
+}
+.fa {
+    flex: 1 1 auto;
+}
+.fn {
+    flex: none;
+}
+
+// Flex Grow
+
+.fg1 {
+    flex-grow: 1;
+}
+.fg0 {
+    flex-grow: 0;
+}
+
+// Flex Shrink
+.fs1 {
+    flex-shrink: 1;
+}
+.fs0 {
+    flex-shrink: 0;
+}
+
+// Order
+.ofirst {
+    order: -9999;
+}
+.olast {
+    order: 9999;
+}
+.o0 {
+    order: 0;
+}
+.o1 {
+    order: 1;
+}
+.o2 {
+    order: 2;
+}
+.o3 {
+    order: 3;
+}
+.o4 {
+    order: 4;
+}
+.o5 {
+    order: 5;
+}
+.o6 {
+    order: 6;
+}
+.o7 {
+    order: 7;
+}
+.o8 {
+    order: 8;
+}
+.o9 {
+    order: 9;
+}
+.o10 {
+    order: 10;
+}
+.o11 {
+    order: 11;
+}
+.o12 {
+    order: 12;
+}

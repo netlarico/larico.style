@@ -1,0 +1,18 @@
+.container {
+    @media (max-width: 767px) {
+        width: 92%;
+    }
+    @media (min-width: 768px) {
+        width: 95%;
+    }
+    @media (max-width: 1659px) and (min-width: 1330px) {
+        &.boxed {
+            max-width: 1200px;
+        }
+    }
+    @media (min-width: 1660px) {
+        &.boxed {
+            max-width: 1600px;
+        }
+    }
+}

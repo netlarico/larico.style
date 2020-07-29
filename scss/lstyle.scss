@@ -1,0 +1,174 @@
+/*! larico.style v1.0 | MIT License | (https://larico.style/) */
+@import '_config';
+
+@import '_base';
+
+// CONTAINER
+@import '_container';
+
+// COLORS
+@import '_colors';
+
+// POSITIONS
+@import '_position';
+
+// DISPLAY
+@import '_display';
+
+// DISPLAY GRID
+@import '_display-grid';
+
+// DISPLAY FLEX
+@import '_display-flex';
+
+// TOP, RIGHT, BOTTOM, LEFT
+@import '_top-right-bottom-left';
+
+// Text Decoration
+
+.tdu {
+    text-decoration: underline;
+}
+.tdlt {
+    text-decoration: line-through;
+}
+.tdn {
+    text-decoration: none;
+}
+
+// Font size
+@import '_font-size';
+
+//  line-height
+
+.lh1 {
+    line-height: 1;
+}
+.lhn {
+    line-height: normal;
+}
+
+// font-weight
+.fwn {
+    font-weight: normal;
+}
+.fwsb {
+    font-weight: 600;
+}
+.fwb {
+    font-weight: bold;
+}
+
+// Font Style
+.fsi {
+    font-style: italic;
+}
+.fsn {
+    font-style: normal;
+}
+
+// Font Family
+.ffi {
+    font-family: inherit;
+}
+
+// Text Transform
+.ttu {
+    text-transform: uppercase;
+}
+.ttl {
+    text-transform: lowercase;
+}
+.ttc {
+    text-transform: capitalize;
+}
+
+// WIDTH & HEIGHT
+@import '_width';
+@import '_max-width';
+@import '_height';
+@import '_max-height';
+
+// MARGIN & PADDING
+@import '_margin';
+@import '_padding';
+
+// BORDERS
+@import '_borders';
+@import '_border-radius';
+
+// Text Alignment
+@import '_text-align';
+
+// Background
+
+.bct {
+    background-color: transparent;
+}
+
+.transition {
+    transition: all 0.3s ease-in-out;
+}
+
+// OPACITY
+.o0 {
+    opacity: 0;
+}
+.o25 {
+    opacity: 0.25;
+}
+.o50 {
+    opacity: 0.5;
+}
+.o75 {
+    opacity: 0.75;
+}
+.o85 {
+    opacity: 0.85;
+}
+.o100 {
+    opacity: 1;
+}
+.o-hover {
+    &:hover {
+        opacity: 1;
+    }
+}
+// FLOAT
+@import '_float';
+
+// VISIBILITY
+.vv {
+    visibility: visible;
+}
+.vh {
+    visibility: hidden;
+}
+
+// LIST STYLE
+.lsn {
+    list-style: none;
+}
+.lsd {
+    list-style: disc;
+}
+.lstd {
+    list-style-type: decimal;
+}
+// FOR SVG
+
+.fc {
+    fill: currentColor;
+}
+
+@import '_overflow';
+@import '_cursor';
+@import '_z-index';
+@import '_components';
+
+// Media Queries
+
+@import 'media-queries/_sm.scss';
+@import 'media-queries/_md.scss';
+@import 'media-queries/_lg.scss';
+@import 'media-queries/_xl.scss';
