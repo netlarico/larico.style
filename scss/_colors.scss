@@ -69,6 +69,11 @@
     }
 }
 // BACKGROUND COLORS
+
+.bct {
+    background-color: transparent;
+}
+
 .bg-primary {
     background-color: $primary;
 }
@@ -128,14 +133,6 @@
     &:hover {
         background-color: $red;
     }
-}
-
-// BUTTONS DEFAULT
-.bn {
-    background: none;
-}
-.bct {
-    background-color: transparent;
 }
 
 // BORDER COLORS

@@ -111,6 +111,10 @@ button {
   color: #333;
 }
 
+.bct {
+  background-color: transparent;
+}
+
 .bg-primary {
   background-color: #3153d8;
 }
@@ -169,14 +173,6 @@ button {
 
 .hover-bg-red:hover {
   background-color: #f34d4d;
-}
-
-.bn {
-  background: none;
-}
-
-.bct {
-  background-color: transparent;
 }
 
 .bc-inherit {
@@ -769,6 +765,14 @@ button {
   text-transform: capitalize;
 }
 
+.bn {
+  background: none;
+}
+
+.bct {
+  background-color: transparent;
+}
+
 .w8 {
   width: 0.5rem;
 }
@@ -809,10 +813,6 @@ button {
   width: auto;
 }
 
-.max-wfull {
-  max-width: 100%;
-}
-
 .h8 {
   height: 0.5rem;
 }
@@ -849,8 +849,32 @@ button {
   height: 100%;
 }
 
-.max-hfull {
+.h100vh {
+  height: 100vh;
+}
+
+.minhfull {
+  min-height: 100%;
+}
+
+.minh100vh {
+  min-height: 100vh;
+}
+
+.maxhfull {
   max-height: 100%;
+}
+
+.maxh100vh {
+  max-height: 100vh;
+}
+
+.minwfull {
+  min-width: 100%;
+}
+
+.maxwfull {
+  max-width: 100%;
 }
 
 .mxa {
@@ -1547,14 +1571,6 @@ button {
   text-align-last: right;
 }
 
-.bct {
-  background-color: transparent;
-}
-
-.transition {
-  transition: all 0.3s ease-in-out;
-}
-
 .o0 {
   opacity: 0;
 }
@@ -1623,6 +1639,10 @@ button {
 
 .fc {
   fill: currentColor;
+}
+
+.transition {
+  transition: all 0.3s ease-in-out;
 }
 
 .oh {
@@ -2781,6 +2801,27 @@ pre {
   .hfull-sm {
     height: 100%;
   }
+  .h100vh-sm {
+    height: 100vh;
+  }
+  .minhfull-sm {
+    min-height: 100%;
+  }
+  .minh100vh-sm {
+    min-height: 100vh;
+  }
+  .maxhfull-sm {
+    max-height: 100%;
+  }
+  .maxh100vh-sm {
+    max-height: 100vh;
+  }
+  .minwfull-sm {
+    min-width: 100%;
+  }
+  .maxwfull-sm {
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 1024px) {
@@ -3686,6 +3727,27 @@ pre {
   }
   .hfull-md {
     height: 100%;
+  }
+  .h100vh-md {
+    height: 100vh;
+  }
+  .minhfull-md {
+    min-height: 100%;
+  }
+  .minh100vh-md {
+    min-height: 100vh;
+  }
+  .maxhfull-md {
+    max-height: 100%;
+  }
+  .maxh100vh-md {
+    max-height: 100vh;
+  }
+  .minwfull-md {
+    min-width: 100%;
+  }
+  .maxwfull-md {
+    max-width: 100%;
   }
 }
 
@@ -4593,6 +4655,27 @@ pre {
   .hfull-lg {
     height: 100%;
   }
+  .h100vh-lg {
+    height: 100vh;
+  }
+  .minhfull-lg {
+    min-height: 100%;
+  }
+  .minh100vh-lg {
+    min-height: 100vh;
+  }
+  .maxhfull-lg {
+    max-height: 100%;
+  }
+  .maxh100vh-lg {
+    max-height: 100vh;
+  }
+  .minwfull-lg {
+    min-width: 100%;
+  }
+  .maxwfull-lg {
+    max-width: 100%;
+  }
 }
 
 @media (min-width: 1660px) {
@@ -5498,5 +5581,26 @@ pre {
   }
   .hfull-xl {
     height: 100%;
+  }
+  .h100vh-xl {
+    height: 100vh;
+  }
+  .minhfull-xl {
+    min-height: 100%;
+  }
+  .minh100vh-xl {
+    min-height: 100vh;
+  }
+  .maxhfull-xl {
+    max-height: 100%;
+  }
+  .maxh100vh-xl {
+    max-height: 100vh;
+  }
+  .minwfull-xl {
+    min-width: 100%;
+  }
+  .maxwfull-xl {
+    max-width: 100%;
   }
 }

@@ -83,11 +83,19 @@
     text-transform: capitalize;
 }
 
+// BUTTONS DEFAULT
+.bn {
+    background: none;
+}
+.bct {
+    background-color: transparent;
+}
+
 // WIDTH & HEIGHT
 @import '_width';
-@import '_max-width';
+
 @import '_height';
-@import '_max-height';
+@import '_max-min-width-height';
 
 // MARGIN & PADDING
 @import '_margin';
@@ -99,16 +107,6 @@
 
 // Text Alignment
 @import '_text-align';
-
-// Background
-
-.bct {
-    background-color: transparent;
-}
-
-.transition {
-    transition: all 0.3s ease-in-out;
-}
 
 // OPACITY
 .o0 {
@@ -159,6 +157,10 @@
 
 .fc {
     fill: currentColor;
+}
+
+.transition {
+    transition: all 0.3s ease-in-out;
 }
 
 @import '_overflow';
