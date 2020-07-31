@@ -1,27 +1,37 @@
 .fs-i-md {
     font-size: inherit;
 }
+
+.fs8-md {
+    font-size: $px8;
+}
 .fs12-md {
-    font-size: 0.75rem;
+    font-size: $px12;
 }
 .fs14-md {
-    font-size: 0.875rem;
+    font-size: $px14;
 }
 .fs16-md {
-    font-size: 1rem;
+    font-size: $px16;
 }
 .fs18-md {
-    font-size: 1.125rem;
+    font-size: $px18;
 }
 .fs24-md {
-    font-size: 1.5rem;
+    font-size: $px24;
 }
 .fs32-md {
-    font-size: 2rem;
+    font-size: $px32;
+}
+.fs40-md {
+    font-size: $px40;
 }
 .fs48-md {
-    font-size: 3rem;
+    font-size: $px48;
+}
+.fs56-md {
+    font-size: $px56;
 }
 .fs64-md {
-    font-size: 4rem;
+    font-size: $px64;
 }

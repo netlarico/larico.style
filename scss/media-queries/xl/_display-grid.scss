@@ -116,9 +116,54 @@
 .gtc12-xl {
     grid-template-columns: repeat(12, minmax(0, 1fr));
 }
+.gtcn-xl {
+    grid-template-columns: none;
+}
+
+.gtr1-xl {
+    grid-template-rows: repeat(1, minmax(0, 1fr));
+}
+.gtr2-xl {
+    grid-template-rows: repeat(2, minmax(0, 1fr));
+}
+.gtr3-xl {
+    grid-template-rows: repeat(3, minmax(0, 1fr));
+}
+.gtr4-xl {
+    grid-template-rows: repeat(4, minmax(0, 1fr));
+}
+.gtr5-xl {
+    grid-template-rows: repeat(5, minmax(0, 1fr));
+}
+.gtr6-xl {
+    grid-template-rows: repeat(6, minmax(0, 1fr));
+}
+.gtr7-xl {
+    grid-template-rows: repeat(7, minmax(0, 1fr));
+}
+.gtr8-xl {
+    grid-template-rows: repeat(8, minmax(0, 1fr));
+}
+.gtr9-xl {
+    grid-template-rows: repeat(9, minmax(0, 1fr));
+}
+.gtr10-xl {
+    grid-template-rows: repeat(10, minmax(0, 1fr));
+}
+.gtr11-xl {
+    grid-template-rows: repeat(11, minmax(0, 1fr));
+}
+.gtr12-xl {
+    grid-template-rows: repeat(12, minmax(0, 1fr));
+}
+.gtrn-xl {
+    grid-template-rows: none;
+}
 
 /* grid columns */
-
+.gca-xl {
+    grid-column: auto;
+}
 .gc1-xl {
     grid-column: span 1 / span 1;
 }
@@ -164,4 +209,231 @@
 }
 .gc12-xl {
     grid-column: span 12 / span 12;
+}
+
+.gcs1-xl {
+    grid-column-start: 1;
+}
+.gcs2-xl {
+    grid-column-start: 2;
+}
+.gcs3-xl {
+    grid-column-start: 3;
+}
+.gcs4-xl {
+    grid-column-start: 4;
+}
+.gcs5-xl {
+    grid-column-start: 5;
+}
+.gcs6-xl {
+    grid-column-start: 6;
+}
+.gcs7-xl {
+    grid-column-start: 7;
+}
+.gcs8-xl {
+    grid-column-start: 8;
+}
+.gcs9-xl {
+    grid-column-start: 9;
+}
+.gcs10-xl {
+    grid-column-start: 10;
+}
+.gcs11-xl {
+    grid-column-start: 11;
+}
+.gcs12-xl {
+    grid-column-start: 12;
+}
+
+.gcsa-xl {
+    grid-column-start: auto;
+}
+
+.gce1-xl {
+    grid-column-end: 1;
+}
+.gce2-xl {
+    grid-column-end: 2;
+}
+.gce3-xl {
+    grid-column-end: 3;
+}
+.gce4-xl {
+    grid-column-end: 4;
+}
+.gce5-xl {
+    grid-column-end: 5;
+}
+.gce6-xl {
+    grid-column-end: 6;
+}
+.gce7-xl {
+    grid-column-end: 7;
+}
+.gce8-xl {
+    grid-column-end: 8;
+}
+.gce9-xl {
+    grid-column-end: 9;
+}
+.gce10-xl {
+    grid-column-end: 10;
+}
+.gce11-xl {
+    grid-column-end: 11;
+}
+.gce12-xl {
+    grid-column-end: 12;
+}
+
+.gcea-xl {
+    grid-column-end: auto;
+}
+
+.gra-xl {
+    grid-row: auto;
+}
+.gr1-xl {
+    grid-row: span 1 / span 1;
+}
+
+.gr2-xl {
+    grid-row: span 2 / span 2;
+}
+
+.gr3-xl {
+    grid-row: span 3 / span 3;
+}
+
+.gr4-xl {
+    grid-row: span 4 / span 4;
+}
+
+.gr5-xl {
+    grid-row: span 5 / span 5;
+}
+
+.gr6-xl {
+    grid-row: span 6 / span 6;
+}
+
+.gr7-xl {
+    grid-row: span 7 / span 7;
+}
+
+.gr8-xl {
+    grid-row: span 8 / span 8;
+}
+
+.gr9-xl {
+    grid-row: span 9 / span 9;
+}
+
+.gr10-xl {
+    grid-row: span 10 / span 10;
+}
+
+.gr11-xl {
+    grid-row: span 11 / span 11;
+}
+.gr12-xl {
+    grid-row: span 12 / span 12;
+}
+
+.grs1-xl {
+    grid-row-start: 1;
+}
+.grs2-xl {
+    grid-row-start: 2;
+}
+.grs3-xl {
+    grid-row-start: 3;
+}
+.grs4-xl {
+    grid-row-start: 4;
+}
+.grs5-xl {
+    grid-row-start: 5;
+}
+.grs6-xl {
+    grid-row-start: 6;
+}
+.grs7-xl {
+    grid-row-start: 7;
+}
+.grs8-xl {
+    grid-row-start: 8;
+}
+.grs9-xl {
+    grid-row-start: 9;
+}
+.grs10-xl {
+    grid-row-start: 10;
+}
+.grs11-xl {
+    grid-row-start: 11;
+}
+.grs12-xl {
+    grid-row-start: 12;
+}
+
+.grsa-xl {
+    grid-row-start: auto;
+}
+
+.gre1-xl {
+    grid-row-end: 1;
+}
+.gre2-xl {
+    grid-row-end: 2;
+}
+.gre3-xl {
+    grid-row-end: 3;
+}
+.gre4-xl {
+    grid-row-end: 4;
+}
+.gre5-xl {
+    grid-row-end: 5;
+}
+.gre6-xl {
+    grid-row-end: 6;
+}
+.gre7-xl {
+    grid-row-end: 7;
+}
+.gre8-xl {
+    grid-row-end: 8;
+}
+.gre9-xl {
+    grid-row-end: 9;
+}
+.gre10-xl {
+    grid-row-end: 10;
+}
+.gre11-xl {
+    grid-row-end: 11;
+}
+.gre12-xl {
+    grid-row-end: 12;
+}
+
+.grea-xl {
+    grid-row-end: auto;
+}
+
+.gafr-xl {
+    grid-auto-flow: row;
+}
+.gafc-xl {
+    grid-auto-flow: column;
+}
+.gafrd-xl {
+    grid-auto-flow: row dense;
+}
+.gafcd-xl {
+    grid-auto-flow: column dense;
 }

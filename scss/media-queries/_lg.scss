@@ -3,6 +3,12 @@
         max-width: $lg;
     }
 
+    // DISPLAY GRID
+    @import 'lg/_display-grid';
+
+    // DISPLAY FLEX
+    @import 'lg/_display-flex';
+
     // POSITION
     @import 'lg/_position';
 
@@ -17,18 +23,15 @@
 
     // FONT SIZE
     @import 'lg/_font-size';
+    @import 'lg/_font-weight';
+
+    @import 'lg/_line-height';
 
     // TEXT-ALIGN
     @import 'lg/_text-align';
 
     // DISPLAY
     @import 'lg/_display';
-
-    // DISPLAY GRID
-    @import 'lg/_display-grid';
-
-    // DISPLAY FLEX
-    @import 'lg/_display-flex';
 
     // FLOAT
     @import 'lg/_float';
@@ -38,4 +41,16 @@
     @import 'lg/_height';
 
     @import 'lg/_max-min-width-height';
+
+    @import 'lg/_object-position';
+
+    @import 'lg/_overflow';
+    @import 'lg/_text-decoration';
+    @import 'lg/_overscroll-behavior';
+    @import 'lg/_z-index';
+    @import 'lg/_visibility';
+    @import 'lg/_box-shadow';
+    @import 'lg/_background';
+    @import 'lg/_object-fit';
+    @import 'lg/_transform';
 }

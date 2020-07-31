@@ -1,3 +1,7 @@
+.minh0-lg {
+    min-height: 0;
+}
+
 .minhfull-lg {
     min-height: 100%;
 }
@@ -13,9 +17,20 @@
     max-height: 100vh;
 }
 
+.minw0-lg {
+    min-width: 0;
+}
+
 .minwfull-lg {
     min-width: 100%;
 }
 .maxwfull-lg {
     max-width: 100%;
+}
+
+.mw50\%-lg {
+    max-width: 50%;
+}
+.mw33\%-lg {
+    max-width: 33.33333333333333%;
 }

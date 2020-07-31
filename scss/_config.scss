@@ -10,22 +10,15 @@ $primary-font: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
     Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol',
     Ubuntu;
 
-// COLORS
-
-$primary: #3153d8;
-$secondary: #333;
-$orange: #ffa07a;
-$green: #19b57f;
-$skyblue: #9edbff;
-$dark: #000;
-$white: #fff;
-$red: #f34d4d;
-$gray: #ccc;
-
-$focus: blue;
-
 // MEDIA QUERYS
+// media-max
+$max-xs: 639px;
+$max-sm: 767px;
+$max-md: 1023px;
+$max-lg: 1329px;
+$max-xl: 1659px;
 
+// media-min
 $xs: 640px;
 $sm: 768px;
 $md: 1024px;
@@ -34,20 +27,167 @@ $xl: 1660px;
 
 // Sizes
 
-// px8  => 8px;
-// px16 =>  16px;
-// px24 =>  24px;
-// px32 =>  32px;
-// px40 =>  40px;
-// px48 =>  48px;
-// px56 =>  56px;
-// px64 =>  64px;
-
 $px8: 0.5rem;
+$px12: 0.75rem;
+$px13: 0.8125rem;
+$px14: 0.875rem;
 $px16: 1rem;
+$px18: 1.125rem;
 $px24: 1.5rem;
 $px32: 2rem;
 $px40: 2.5rem;
 $px48: 3rem;
 $px56: 3.5rem;
 $px64: 4rem;
+
+// COLORS
+
+$primary: #3153d8;
+$secondary: #333;
+$tertiary: #1899e4;
+
+$white: #fff;
+$focus: $primary;
+
+$black: #000;
+$black-light-100: #202020;
+$black-light-200: #404040;
+$black-light-300: #606060;
+$black-light-400: #808080;
+$black-light-500: #9f9f9f;
+$black-light-600: #bfbfbf;
+
+$red: #ff0000;
+$red-dark-100: #df0000;
+$red-dark-200: #bf0000;
+$red-dark-300: #9f0000;
+$red-dark-400: #800000;
+$red-dark-500: #600000;
+$red-dark-600: #400000;
+
+$red-light-100: #ff4040;
+$red-light-200: #ff6060;
+$red-light-300: #ff8080;
+$red-light-400: #ff9f9f;
+$red-light-500: #ffbfbf;
+$red-light-600: #ffdfdf;
+
+$blue: #0000ff;
+$blue-dark-100: #0000df;
+$blue-dark-200: #0000bf;
+$blue-dark-300: #00009f;
+$blue-dark-400: #000080;
+$blue-dark-500: #000060;
+$blue-dark-600: #000040;
+
+$blue-light-100: #4040ff;
+$blue-light-200: #6060ff;
+$blue-light-300: #8080ff;
+$blue-light-400: #9f9fff;
+$blue-light-500: #bfbfff;
+$blue-light-600: #dfdfff;
+
+$brown: #964b00;
+$brown-dark-100: #834200;
+$brown-dark-200: #713800;
+$brown-dark-300: #5e2f00;
+$brown-dark-400: #4b2600;
+$brown-dark-500: #381c00;
+$brown-dark-600: #261300;
+
+$brown-light-100: #a36220;
+$brown-light-200: #b07840;
+$brown-light-300: #bd8f60;
+$brown-light-400: #cba580;
+$brown-light-500: #d8bc9f;
+$brown-light-600: #e5d2bf;
+
+$gray: #808080;
+$gray-dark-100: #707070;
+$gray-dark-200: #606060;
+$gray-dark-300: #505050;
+$gray-dark-400: #404040;
+$gray-dark-500: #303030;
+$gray-dark-600: #202020;
+
+$gray-light-100: #a0a0a0;
+$gray-light-200: #b0b0b0;
+$gray-light-300: #c0c0c0;
+$gray-light-400: #cfcfcf;
+$gray-light-500: #dfdfdf;
+$gray-light-600: #efefef;
+
+$green: #008000;
+$green-dark-100: #00df00;
+$green-dark-200: #00bf00;
+$green-dark-300: #009f00;
+$green-dark-400: #006000;
+$green-dark-500: #004000;
+$green-dark-600: #002000;
+
+$green-light-100: #40ff40;
+$green-light-200: #60ff60;
+$green-light-300: #80ff80;
+$green-light-400: #9fff9f;
+$green-light-500: #bfffbf;
+$green-light-600: #dfffdf;
+
+$orange: #ffa500;
+$orange-dark-100: #df9000;
+$orange-dark-200: #bf7c00;
+$orange-dark-300: #9f6700;
+$orange-dark-400: #805300;
+$orange-dark-500: #603e00;
+$orange-dark-600: #402900;
+
+$orange-light-100: #ffbc40;
+$orange-light-200: #ffc760;
+$orange-light-300: #ffd280;
+$orange-light-400: #ffdd9f;
+$orange-light-500: #ffe9bf;
+$orange-light-600: #fff4df;
+
+$pink: #ffc0cb;
+$pink-dark-100: #dfa8b2;
+$pink-dark-200: #bf9098;
+$pink-dark-300: #9f787f;
+$pink-dark-400: #806066;
+$pink-dark-500: #60484c;
+$pink-dark-600: #403033;
+
+$pink-light-100: #ffd0d8;
+$pink-light-200: #ffd8df;
+$pink-light-300: #ffe0e5;
+$pink-light-400: #ffe7ec;
+$pink-light-500: #ffeff2;
+$pink-light-600: #fff7f9;
+
+$purple: #a020f0;
+$purple-dark-100: #8c1cd2;
+$purple-dark-200: #7818b4;
+$purple-dark-300: #641496;
+$purple-dark-400: #501078;
+$purple-dark-500: #3c0c5a;
+$purple-dark-600: #28083c;
+
+$purple-light-100: #b858f4;
+$purple-light-200: #c474f6;
+$purple-light-300: #d090f8;
+$purple-light-400: #dbabf9;
+$purple-light-500: #e7c7fb;
+$purple-light-600: #f3e3fd;
+
+$yellow: #ffff00;
+$yellow-dark-100: #dfdf00;
+$yellow-dark-200: #bfbf00;
+$yellow-dark-300: #9f9f00;
+$yellow-dark-400: #808000;
+$yellow-dark-500: #606000;
+$yellow-dark-600: #404000;
+
+$yellow-light-100: #ffff40;
+$yellow-light-200: #ffff60;
+$yellow-light-300: #ffff80;
+$yellow-light-400: #ffff9f;
+$yellow-light-500: #ffffbf;
+$yellow-light-600: #ffffdf;

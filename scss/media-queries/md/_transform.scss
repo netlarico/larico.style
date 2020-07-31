@@ -1,0 +1,110 @@
+.ttx-0-md {
+    transform: translateX(0);
+}
+.ttx-100\%-md {
+    transform: translateX(100%);
+}
+.ttx-50\%-md {
+    transform: translateX(50%);
+}
+
+.-ttx-100\%-md {
+    transform: translateX(-100%);
+}
+.-ttx-50\%-md {
+    transform: translateX(-50%);
+}
+
+.tty-100\%-md {
+    transform: translateY(100%);
+}
+.tty-50\%-md {
+    transform: translateY(50%);
+}
+
+.-tty-100\%-md {
+    transform: translateY(-100%);
+}
+.-tty-50\%-md {
+    transform: translateY(-50%);
+}
+
+.tr-45-md {
+    transform: rotate(45deg);
+}
+.tr-90-md {
+    transform: rotate(90deg);
+}
+.tr-180-md {
+    transform: rotate(180deg);
+}
+.-tr-45-md {
+    transform: rotate(45deg);
+}
+.-tr-90-md {
+    transform: rotate(90deg);
+}
+.-tr-180-md {
+    transform: rotate(180deg);
+}
+
+.ts1-md {
+    transform: scale(1.1);
+}
+
+.ts2-md {
+    transform: scale(1.2);
+}
+.ts3-md {
+    transform: scale(1.3);
+}
+.ts4-md {
+    transform: scale(1.4);
+}
+.ts5-md {
+    transform: scale(1.5);
+}
+
+.ts09-md {
+    transform: scale(0.9);
+}
+.ts08-md {
+    transform: scale(0.8);
+}
+.ts07-md {
+    transform: scale(0.7);
+}
+.ts06-md {
+    transform: scale(0.6);
+}
+.ts05-md {
+    transform: scale(0.5);
+}
+
+.toc-md {
+    transform-origin: center;
+}
+.tot-md {
+    transform-origin: top;
+}
+.totr-md {
+    transform-origin: top right;
+}
+.tor-md {
+    transform-origin: right;
+}
+.tobr-md {
+    transform-origin: bottom right;
+}
+.tob-md {
+    transform-origin: bottom;
+}
+.tobl-md {
+    transform-origin: bottom left;
+}
+.tol-md {
+    transform-origin: left;
+}
+.totl-md {
+    transform-origin: top left;
+}

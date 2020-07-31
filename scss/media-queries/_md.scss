@@ -3,6 +3,12 @@
         max-width: $md;
     }
 
+    // DISPLAY GRID
+    @import 'md/_display-grid';
+
+    // DISPLAY FLEX
+    @import 'md/_display-flex';
+
     // POSITION
     @import 'md/_position';
 
@@ -17,18 +23,15 @@
 
     // FONT SIZE
     @import 'md/_font-size';
+    @import 'md/_font-weight';
+
+    @import 'md/_line-height';
 
     // TEXT-ALIGN
     @import 'md/_text-align';
 
     // DISPLAY
     @import 'md/_display';
-
-    // DISPLAY GRID
-    @import 'md/_display-grid';
-
-    // DISPLAY FLEX
-    @import 'md/_display-flex';
 
     // FLOAT
     @import 'md/_float';
@@ -38,4 +41,18 @@
     @import 'md/_height';
 
     @import 'md/_max-min-width-height';
+
+    @import 'md/_object-position';
+
+    @import 'md/_overflow';
+    @import 'md/_text-decoration';
+    @import 'md/_overscroll-behavior';
+
+    @import 'md/_z-index';
+    @import 'md/_visibility';
+    @import 'md/_box-shadow';
+
+    @import 'md/_background';
+    @import 'md/_object-fit';
+    @import 'md/_transform';
 }

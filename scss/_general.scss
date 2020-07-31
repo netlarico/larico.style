@@ -1,0 +1,28 @@
+.font-sized {
+    p {
+        font-size: 2rem;
+    }
+}
+.p-sized {
+}
+
+.p {
+    &-tac {
+        p {
+            text-align: center;
+        }
+    }
+    &-taj {
+        p {
+            text-align: justify;
+        }
+    }
+    &-sized {
+        @media (max-width: 767px) {
+            p {
+                font-size: $px13;
+                line-height: 1.8;
+            }
+        }
+    }
+}

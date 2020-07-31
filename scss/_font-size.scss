@@ -2,28 +2,36 @@
     font-size: inherit;
 }
 
-.fs12 {
-    font-size: 0.75rem;
+.fs8 {
+    font-size: $px8;
 }
-
+.fs12 {
+    font-size: $px12;
+}
 .fs14 {
-    font-size: 0.875rem;
+    font-size: $px14;
 }
 .fs16 {
-    font-size: 1rem;
+    font-size: $px16;
 }
 .fs18 {
-    font-size: 1.125rem;
+    font-size: $px18;
 }
 .fs24 {
-    font-size: 1.5rem;
+    font-size: $px24;
 }
 .fs32 {
-    font-size: 2rem;
+    font-size: $px32;
+}
+.fs40 {
+    font-size: $px40;
 }
 .fs48 {
-    font-size: 3rem;
+    font-size: $px48;
+}
+.fs56 {
+    font-size: $px56;
 }
 .fs64 {
-    font-size: 4rem;
+    font-size: $px64;
 }

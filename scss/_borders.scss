@@ -50,6 +50,19 @@
 .bss {
     border-style: solid;
 }
-.bsd {
+.bs-dotted {
     border-style: dotted;
+}
+.bs-dashed {
+    border-style: dashed;
+}
+.bs-double {
+    border-style: double;
+}
+
+.bcc {
+    border-collapse: collapse;
+}
+.bcs {
+    border-collapse: separate;
 }

@@ -28,18 +28,3 @@
         outline: none;
     }
 }
-
-// FOR BUTTONS
-
-.cbtns {
-    &.rounded {
-        button {
-            &:first-child {
-                @extend .rounded-l;
-            }
-            &:last-child {
-                @extend .rounded-r;
-            }
-        }
-    }
-}

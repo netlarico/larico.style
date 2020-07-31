@@ -2,7 +2,11 @@
     .container-xl {
         max-width: $xl;
     }
+    // DISPLAY GRID
+    @import 'xl/_display-grid';
 
+    // DISPLAY FLEX
+    @import 'xl/_display-flex';
     // POSITION
     @import 'xl/_position';
 
@@ -17,18 +21,14 @@
 
     // FONT SIZE
     @import 'xl/_font-size';
+    @import 'xl/_font-weight';
 
     // TEXT-ALIGN
     @import 'xl/_text-align';
+    @import 'xl/_line-height';
 
     // DISPLAY
     @import 'xl/_display';
-
-    // DISPLAY GRID
-    @import 'xl/_display-grid';
-
-    // DISPLAY FLEX
-    @import 'xl/_display-flex';
 
     // FLOAT
     @import 'xl/_float';
@@ -38,4 +38,16 @@
     @import 'xl/_height';
 
     @import 'xl/_max-min-width-height';
+
+    @import 'xl/_object-position';
+
+    @import 'xl/_overflow';
+    @import 'xl/_text-decoration';
+    @import 'xl/_overscroll-behavior';
+    @import 'xl/_z-index';
+    @import 'xl/_visibility';
+    @import 'xl/_box-shadow';
+    @import 'xl/_background';
+    @import 'xl/_object-fit';
+    @import 'xl/_transform';
 }

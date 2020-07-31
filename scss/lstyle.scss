@@ -9,6 +9,9 @@
 // COLORS
 @import '_colors';
 
+// GENERAL STYLE
+@import '_general';
+
 // POSITIONS
 @import '_position';
 
@@ -25,39 +28,25 @@
 @import '_top-right-bottom-left';
 
 // Text Decoration
-
-.tdu {
-    text-decoration: underline;
-}
-.tdlt {
-    text-decoration: line-through;
-}
-.tdn {
-    text-decoration: none;
-}
+@import '_text-decoration';
 
 // Font size
 @import '_font-size';
 
-//  line-height
+.smoothing-antialiased {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.smoothing-auto {
+    -webkit-font-smoothing: auto;
+    -moz-osx-font-smoothing: auto;
+}
 
-.lh1 {
-    line-height: 1;
-}
-.lhn {
-    line-height: normal;
-}
+//  line-height
+@import '_line-height';
 
 // font-weight
-.fwn {
-    font-weight: normal;
-}
-.fwsb {
-    font-weight: 600;
-}
-.fwb {
-    font-weight: bold;
-}
+@import '_font-weight';
 
 // Font Style
 .fsi {
@@ -65,6 +54,24 @@
 }
 .fsn {
     font-style: normal;
+}
+
+// Letter Spacing
+
+.ls1 {
+    letter-spacing: 0.5008px;
+}
+.ls2 {
+    letter-spacing: 0.0625rem;
+}
+.ls3 {
+    letter-spacing: 0.125rem;
+}
+.ls4 {
+    letter-spacing: 0.1875rem;
+}
+.ls5 {
+    letter-spacing: 0.25rem;
 }
 
 // Font Family
@@ -81,14 +88,6 @@
 }
 .ttc {
     text-transform: capitalize;
-}
-
-// BUTTONS DEFAULT
-.bn {
-    background: none;
-}
-.bct {
-    background-color: transparent;
 }
 
 // WIDTH & HEIGHT
@@ -108,40 +107,70 @@
 // Text Alignment
 @import '_text-align';
 
+// vertical-align
+
+.vabl {
+    vertical-align: baseline;
+}
+.vat {
+    vertical-align: top;
+}
+.vam {
+    vertical-align: middle;
+}
+.vab {
+    vertical-align: bottom;
+}
+.vatt {
+    vertical-align: text-top;
+}
+.vatb {
+    vertical-align: text-bottom;
+}
+
+// white-space
+
+.wsn {
+    white-space: normal;
+}
+.wsnw {
+    white-space: nowrap;
+}
+.wsp {
+    white-space: pre;
+}
+.wspl {
+    white-space: pre-line;
+}
+.wspw {
+    white-space: pre-wrap;
+}
+
+// Word Break
+.wbn {
+    word-break: normal;
+    overflow-wrap: normal;
+}
+.owbw {
+    overflow-wrap: break-word;
+}
+.wbba {
+    word-break: break-all;
+}
+.truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
 // OPACITY
-.o0 {
-    opacity: 0;
-}
-.o25 {
-    opacity: 0.25;
-}
-.o50 {
-    opacity: 0.5;
-}
-.o75 {
-    opacity: 0.75;
-}
-.o85 {
-    opacity: 0.85;
-}
-.o100 {
-    opacity: 1;
-}
-.o-hover {
-    &:hover {
-        opacity: 1;
-    }
-}
+@import '_opacity';
+
 // FLOAT
 @import '_float';
 
 // VISIBILITY
-.vv {
-    visibility: visible;
-}
-.vh {
-    visibility: hidden;
-}
+@import '_visibility';
 
 // LIST STYLE
 .lsn {
@@ -158,14 +187,41 @@
 .fc {
     fill: currentColor;
 }
-
-.transition {
-    transition: all 0.3s ease-in-out;
+.sc {
+    stroke: currentColor;
 }
+
+@import '_object-fit';
+
+// Transform
+@import '_transform';
+
+.tla {
+    table-layout: auto;
+}
+.tlf {
+    table-layout: fixed;
+}
+
+.an {
+    appearance: none;
+}
+.o0 {
+    outline: 0;
+}
+
+// backgrounds
+@import '_background';
 
 @import '_overflow';
 @import '_cursor';
 @import '_z-index';
+
+@import '_object-position';
+@import '_box-shadow';
+@import '_overscroll-behavior';
+@import '_transition';
+
 @import '_components';
 
 // Media Queries

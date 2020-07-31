@@ -1,0 +1,110 @@
+.ttx-0-xl {
+    transform: translateX(0);
+}
+.ttx-100\%-xl {
+    transform: translateX(100%);
+}
+.ttx-50\%-xl {
+    transform: translateX(50%);
+}
+
+.-ttx-100\%-xl {
+    transform: translateX(-100%);
+}
+.-ttx-50\%-xl {
+    transform: translateX(-50%);
+}
+
+.tty-100\%-xl {
+    transform: translateY(100%);
+}
+.tty-50\%-xl {
+    transform: translateY(50%);
+}
+
+.-tty-100\%-xl {
+    transform: translateY(-100%);
+}
+.-tty-50\%-xl {
+    transform: translateY(-50%);
+}
+
+.tr-45-xl {
+    transform: rotate(45deg);
+}
+.tr-90-xl {
+    transform: rotate(90deg);
+}
+.tr-180-xl {
+    transform: rotate(180deg);
+}
+.-tr-45-xl {
+    transform: rotate(45deg);
+}
+.-tr-90-xl {
+    transform: rotate(90deg);
+}
+.-tr-180-xl {
+    transform: rotate(180deg);
+}
+
+.ts1-xl {
+    transform: scale(1.1);
+}
+
+.ts2-xl {
+    transform: scale(1.2);
+}
+.ts3-xl {
+    transform: scale(1.3);
+}
+.ts4-xl {
+    transform: scale(1.4);
+}
+.ts5-xl {
+    transform: scale(1.5);
+}
+
+.ts09-xl {
+    transform: scale(0.9);
+}
+.ts08-xl {
+    transform: scale(0.8);
+}
+.ts07-xl {
+    transform: scale(0.7);
+}
+.ts06-xl {
+    transform: scale(0.6);
+}
+.ts05-xl {
+    transform: scale(0.5);
+}
+
+.toc-xl {
+    transform-origin: center;
+}
+.tot-xl {
+    transform-origin: top;
+}
+.totr-xl {
+    transform-origin: top right;
+}
+.tor-xl {
+    transform-origin: right;
+}
+.tobr-xl {
+    transform-origin: bottom right;
+}
+.tob-xl {
+    transform-origin: bottom;
+}
+.tobl-xl {
+    transform-origin: bottom left;
+}
+.tol-xl {
+    transform-origin: left;
+}
+.totl-xl {
+    transform-origin: top left;
+}
