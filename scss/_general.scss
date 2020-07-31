@@ -26,3 +26,9 @@
         }
     }
 }
+
+.a-color-primary {
+    a {
+        color: $primary;
+    }
+}

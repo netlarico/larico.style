@@ -44,6 +44,10 @@ button {
   }
 }
 
+.primary-color {
+  color: var(--primary-color);
+}
+
 .primary {
   color: #3153d8;
 }
@@ -3133,6 +3137,10 @@ button {
     font-size: 0.8125rem;
     line-height: 1.8;
   }
+}
+
+.a-color-primary a {
+  color: #3153d8;
 }
 
 .sticky {
