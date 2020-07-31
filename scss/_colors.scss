@@ -424,6 +424,13 @@
 }
 
 // HOVER COLORS
+
+.hover-primary-color {
+    &:hover {
+        color: var(--primary-color);
+    }
+}
+
 .hover-primary {
     &:hover {
         color: $primary;
@@ -1090,6 +1097,10 @@
     background-color: transparent;
 }
 
+.bg-primary-color {
+    background-color: var(--primary-color);
+}
+
 .bg-primary {
     background-color: $primary;
 }
@@ -1496,6 +1507,12 @@
 }
 
 // HOVER BACKGROUND COLORS
+
+.hover-bg-primary-color {
+    &:hover {
+        background-color: var(--primary-color);
+    }
+}
 
 .hover-bg-primary {
     &:hover {
@@ -2163,6 +2180,9 @@
 .bc-inherit {
     border-color: inherit;
 }
+.bc-primary-color {
+    border-color: var(--primary-color);
+}
 .bc-primary {
     border-color: $primary;
 }
@@ -2579,6 +2599,10 @@
 }
 
 // PLACEHOLDER COLOR
+
+.placeholder-primary-color::placeholder {
+    color: var(--primary-color);
+}
 
 .placeholder-black::placeholder {
     color: $black;
