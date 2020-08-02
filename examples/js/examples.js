@@ -1,5 +1,16 @@
 // JQUERY
 
+// HAMBURGER
+
+$('.hamburger-dots, .hamburger-lines').click(function () {
+    $(this).toggleClass('active');
+    $('nav').slideToggle('slow');
+});
+
+$('.mode').click(function () {
+    $(this).toggleClass('dark');
+});
+
 $('.box').click(function () {
     //$('.box.active').removeClass('active');
     $('.thumb').removeClass('p3 df fixed l0 t0 wfull hfull aic bg-gray zi10');

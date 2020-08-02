@@ -15,3 +15,7 @@ a,
 button {
     cursor: pointer;
 }
+:focus {
+    outline: none;
+    box-shadow: 0px 0px 0px 2px $primary;
+}

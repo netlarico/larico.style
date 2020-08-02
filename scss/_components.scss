@@ -86,6 +86,117 @@
     }
 }
 
+// HAMBURGER FOR MENU
+.hamburger-dots,
+.hamburger-lines {
+    i {
+        transition: all 0.3s ease-in-out;
+        position: relative;
+    }
+}
+.hamburger-dots {
+    &.active {
+        justify-content: center;
+        &:focus {
+        }
+        i {
+            &:nth-of-type(2) {
+                transform: scale(3);
+            }
+            &:nth-of-type(1),
+            &:nth-of-type(3) {
+                border-radius: 0;
+                background-color: #fff;
+                z-index: 2;
+                width: 3px;
+                height: 28px;
+            }
+            &:nth-of-type(1) {
+                transform: rotate(45deg);
+                left: 16%;
+            }
+            &:nth-of-type(3) {
+                transform: rotate(-45deg);
+                right: 16%;
+            }
+        }
+    }
+    @media (max-width: $max-xl) {
+        &.active {
+            &.w72-xl {
+                i {
+                    &:nth-of-type(1),
+                    &:nth-of-type(3) {
+                        width: 2px;
+                        height: 15px;
+                    }
+                }
+            }
+        }
+    }
+}
+.hamburger-lines {
+    &.active {
+        i {
+            &:nth-of-type(2) {
+                display: none;
+            }
+            &:nth-of-type(1),
+            &:nth-of-type(3) {
+                z-index: 2;
+            }
+            &:nth-of-type(1) {
+                transform: rotate(135deg);
+                top: 23%;
+            }
+            &:nth-of-type(3) {
+                transform: rotate(-135deg);
+                bottom: 23%;
+            }
+        }
+    }
+}
+
+.mode {
+    padding: 0.2rem;
+    .is {
+    }
+    .sun {
+        right: 0.2rem;
+    }
+    .moon {
+    }
+
+    &:not(.dark) {
+        .moon {
+            left: 1rem;
+            opacity: 0;
+        }
+    }
+
+    &.dark {
+        i {
+            left: 65%;
+        }
+        .sun {
+            opacity: 0;
+            right: 1rem;
+        }
+        .moon {
+            left: 0.2rem;
+            opacity: 1;
+        }
+    }
+    @media (max-width: $max-xl) {
+        &.w56-xl {
+        }
+    }
+    @media (min-width: $xl) {
+        &.w56-xl {
+        }
+    }
+}
+
 // CODE
 
 code,
