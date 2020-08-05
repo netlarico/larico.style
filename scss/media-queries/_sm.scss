@@ -3,6 +3,26 @@
         max-width: $sm;
     }
 
+    // COLORS
+
+    .primary-sm {
+        color: $primary;
+    }
+    .secondary-sm {
+        color: $secondary;
+    }
+    .tertiary-sm {
+        color: $tertiary;
+    }
+
+    .white-sm {
+        color: $white;
+    }
+
+    .black-sm {
+        color: $black;
+    }
+
     // DISPLAY GRID
     @import 'sm/_display-grid';
 

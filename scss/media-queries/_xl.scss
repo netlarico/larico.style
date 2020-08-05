@@ -2,6 +2,27 @@
     .container-xl {
         max-width: $xl;
     }
+
+    // COLORS
+
+    .primary-xl {
+        color: $primary;
+    }
+    .secondary-xl {
+        color: $secondary;
+    }
+    .tertiary-xl {
+        color: $tertiary;
+    }
+
+    .white-xl {
+        color: $white;
+    }
+
+    .black-xl {
+        color: $black;
+    }
+
     // DISPLAY GRID
     @import 'xl/_display-grid';
 
