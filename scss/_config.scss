@@ -46,9 +46,9 @@ $px72: 4.5rem;
 
 // COLORS
 
-$primary: #3153d8;
-$secondary: #333;
-$tertiary: #1899e4;
+$primary: var(--primary-color, #3153d8);
+$secondary: var(--secondary-color, #e81459);
+$tertiary: var(--tertiary-color, #1899e4);
 
 $white: #fff;
 $focus: $primary;

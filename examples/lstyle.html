@@ -5,6 +5,12 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link rel="stylesheet" href="../dist/lstyle.min.css" />
 
+        <style>
+            :root {
+                --primary-color: #14e8ba;
+            }
+        </style>
+
         <!-- <script
             src="https://kit.fontawesome.com/023b2c24d6.js"
             crossorigin="anonymous"
@@ -15,10 +21,23 @@
             <h2>General style</h2>
             <hr />
 
+            <h3>Colors</h3>
+
+            <ul class="df lsn m0 p0">
+                <li class="w56 h56 bg-primary mr2"></li>
+                <li class="w56 h56 bss bw2 bc-primary mr2"></li>
+                <li
+                    class="w56 h56 bss bw2 bc-primary hover-bg-primary mr2"
+                ></li>
+                <li
+                    class="w56 h56 bss bw2 bc-secondary hover-bg-primary mr2"
+                ></li>
+            </ul>
+
             <h3>Font size</h3>
 
             <div class="p-taj p-sized">
-                <h1>Hello World</h1>
+                <h1 class="primary">Hello World</h1>
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Libero laudantium dolores nesciunt corrupti nihil quae

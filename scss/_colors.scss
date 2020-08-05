@@ -1,6 +1,3 @@
-.primary-color {
-    color: var(--primary-color);
-}
 .primary {
     color: $primary;
 }
@@ -423,13 +420,418 @@
     color: inherit;
 }
 
-// HOVER COLORS
+// BACKGROUND COLORS
 
-.hover-primary-color {
-    &:hover {
-        color: var(--primary-color);
-    }
+.bct {
+    background-color: transparent;
 }
+
+.bg-primary {
+    background-color: $primary;
+}
+.bg-secondary {
+    background-color: $secondary;
+}
+.bg-tertiary {
+    background-color: $tertiary;
+}
+
+.bg-white {
+    background-color: $white;
+}
+
+.bg-black {
+    background-color: $black;
+}
+.bg-black-light-100 {
+    background-color: $black-light-100;
+}
+.bg-black-light-200 {
+    background-color: $black-light-200;
+}
+.bg-black-light-300 {
+    background-color: $black-light-300;
+}
+.bg-black-light-400 {
+    background-color: $black-light-400;
+}
+.bg-black-light-500 {
+    background-color: $black-light-500;
+}
+.bg-black-light-600 {
+    background-color: $black-light-600;
+}
+
+.bg-red {
+    background-color: $red;
+}
+.bg-red-light-100 {
+    background-color: $red-light-100;
+}
+.bg-red-light-200 {
+    background-color: $red-light-200;
+}
+.bg-red-light-300 {
+    background-color: $red-light-300;
+}
+.bg-red-light-400 {
+    background-color: $red-light-400;
+}
+.bg-red-light-500 {
+    background-color: $red-light-500;
+}
+.bg-red-light-600 {
+    background-color: $red-light-600;
+}
+
+.bg-red-dark-100 {
+    background-color: $red-dark-100;
+}
+.bg-red-dark-200 {
+    background-color: $red-dark-200;
+}
+.bg-red-dark-300 {
+    background-color: $red-dark-300;
+}
+.bg-red-dark-400 {
+    background-color: $red-dark-400;
+}
+.bg-red-dark-500 {
+    background-color: $red-dark-500;
+}
+.bg-red-dark-600 {
+    background-color: $red-dark-600;
+}
+
+.bg-blue {
+    background-color: $blue;
+}
+.bg-blue-light-100 {
+    background-color: $blue-light-100;
+}
+.bg-blue-light-200 {
+    background-color: $blue-light-200;
+}
+.bg-blue-light-300 {
+    background-color: $blue-light-300;
+}
+.bg-blue-light-400 {
+    background-color: $blue-light-400;
+}
+.bg-blue-light-500 {
+    background-color: $blue-light-500;
+}
+.bg-blue-light-600 {
+    background-color: $blue-light-600;
+}
+
+.bg-blue-dark-100 {
+    background-color: $blue-dark-100;
+}
+.bg-blue-dark-200 {
+    background-color: $blue-dark-200;
+}
+.bg-blue-dark-300 {
+    background-color: $blue-dark-300;
+}
+.bg-blue-dark-400 {
+    background-color: $blue-dark-400;
+}
+.bg-blue-dark-500 {
+    background-color: $blue-dark-500;
+}
+.bg-blue-dark-600 {
+    background-color: $blue-dark-600;
+}
+
+.bg-brown {
+    background-color: $brown;
+}
+.bg-brown-light-100 {
+    background-color: $brown-light-100;
+}
+.bg-brown-light-200 {
+    background-color: $brown-light-200;
+}
+.bg-brown-light-300 {
+    background-color: $brown-light-300;
+}
+.bg-brown-light-400 {
+    background-color: $brown-light-400;
+}
+.bg-brown-light-500 {
+    background-color: $brown-light-500;
+}
+.bg-brown-light-600 {
+    background-color: $brown-light-600;
+}
+
+.bg-brown-dark-100 {
+    background-color: $brown-dark-100;
+}
+.bg-brown-dark-200 {
+    background-color: $brown-dark-200;
+}
+.bg-brown-dark-300 {
+    background-color: $brown-dark-300;
+}
+.bg-brown-dark-400 {
+    background-color: $brown-dark-400;
+}
+.bg-brown-dark-500 {
+    background-color: $brown-dark-500;
+}
+.bg-brown-dark-600 {
+    background-color: $brown-dark-600;
+}
+
+.bg-gray {
+    background-color: $gray;
+}
+.bg-gray-light-100 {
+    background-color: $gray-light-100;
+}
+.bg-gray-light-200 {
+    background-color: $gray-light-200;
+}
+.bg-gray-light-300 {
+    background-color: $gray-light-300;
+}
+.bg-gray-light-400 {
+    background-color: $gray-light-400;
+}
+.bg-gray-light-500 {
+    background-color: $gray-light-500;
+}
+.bg-gray-light-600 {
+    background-color: $gray-light-600;
+}
+
+.bg-gray-dark-100 {
+    background-color: $gray-dark-100;
+}
+.bg-gray-dark-200 {
+    background-color: $gray-dark-200;
+}
+.bg-gray-dark-300 {
+    background-color: $gray-dark-300;
+}
+.bg-gray-dark-400 {
+    background-color: $gray-dark-400;
+}
+.bg-gray-dark-500 {
+    background-color: $gray-dark-500;
+}
+.bg-gray-dark-600 {
+    background-color: $gray-dark-600;
+}
+
+.bg-green {
+    background-color: $green;
+}
+.bg-green-light-100 {
+    background-color: $green-light-100;
+}
+.bg-green-light-200 {
+    background-color: $green-light-200;
+}
+.bg-green-light-300 {
+    background-color: $green-light-300;
+}
+.bg-green-light-400 {
+    background-color: $green-light-400;
+}
+.bg-green-light-500 {
+    background-color: $green-light-500;
+}
+.bg-green-light-600 {
+    background-color: $green-light-600;
+}
+
+.bg-green-dark-100 {
+    background-color: $green-dark-100;
+}
+.bg-green-dark-200 {
+    background-color: $green-dark-200;
+}
+.bg-green-dark-300 {
+    background-color: $green-dark-300;
+}
+.bg-green-dark-400 {
+    background-color: $green-dark-400;
+}
+.bg-green-dark-500 {
+    background-color: $green-dark-500;
+}
+.bg-green-dark-600 {
+    background-color: $green-dark-600;
+}
+
+.bg-orange {
+    background-color: $orange;
+}
+.bg-orange-light-100 {
+    background-color: $orange-light-100;
+}
+.bg-orange-light-200 {
+    background-color: $orange-light-200;
+}
+.bg-orange-light-300 {
+    background-color: $orange-light-300;
+}
+.bg-orange-light-400 {
+    background-color: $orange-light-400;
+}
+.bg-orange-light-500 {
+    background-color: $orange-light-500;
+}
+.bg-orange-light-600 {
+    background-color: $orange-light-600;
+}
+
+.bg-orange-dark-100 {
+    background-color: $orange-dark-100;
+}
+.bg-orange-dark-200 {
+    background-color: $orange-dark-200;
+}
+.bg-orange-dark-300 {
+    background-color: $orange-dark-300;
+}
+.bg-orange-dark-400 {
+    background-color: $orange-dark-400;
+}
+.bg-orange-dark-500 {
+    background-color: $orange-dark-500;
+}
+.bg-orange-dark-600 {
+    background-color: $orange-dark-600;
+}
+
+.bg-pink {
+    background-color: $pink;
+}
+.bg-pink-light-100 {
+    background-color: $pink-light-100;
+}
+.bg-pink-light-200 {
+    background-color: $pink-light-200;
+}
+.bg-pink-light-300 {
+    background-color: $pink-light-300;
+}
+.bg-pink-light-400 {
+    background-color: $pink-light-400;
+}
+.bg-pink-light-500 {
+    background-color: $pink-light-500;
+}
+.bg-pink-light-600 {
+    background-color: $pink-light-600;
+}
+
+.bg-pink-dark-100 {
+    background-color: $pink-dark-100;
+}
+.bg-pink-dark-200 {
+    background-color: $pink-dark-200;
+}
+.bg-pink-dark-300 {
+    background-color: $pink-dark-300;
+}
+.bg-pink-dark-400 {
+    background-color: $pink-dark-400;
+}
+.bg-pink-dark-500 {
+    background-color: $pink-dark-500;
+}
+.bg-pink-dark-600 {
+    background-color: $pink-dark-600;
+}
+
+.bg-purple {
+    background-color: $purple;
+}
+.bg-purple-light-100 {
+    background-color: $purple-light-100;
+}
+.bg-purple-light-200 {
+    background-color: $purple-light-200;
+}
+.bg-purple-light-300 {
+    background-color: $purple-light-300;
+}
+.bg-purple-light-400 {
+    background-color: $purple-light-400;
+}
+.bg-purple-light-500 {
+    background-color: $purple-light-500;
+}
+.bg-purple-light-600 {
+    background-color: $purple-light-600;
+}
+
+.bg-purple-dark-100 {
+    background-color: $purple-dark-100;
+}
+.bg-purple-dark-200 {
+    background-color: $purple-dark-200;
+}
+.bg-purple-dark-300 {
+    background-color: $purple-dark-300;
+}
+.bg-purple-dark-400 {
+    background-color: $purple-dark-400;
+}
+.bg-purple-dark-500 {
+    background-color: $purple-dark-500;
+}
+.bg-purple-dark-600 {
+    background-color: $purple-dark-600;
+}
+
+.bg-yellow {
+    background-color: $yellow;
+}
+.bg-yellow-light-100 {
+    background-color: $yellow-light-100;
+}
+.bg-yellow-light-200 {
+    background-color: $yellow-light-200;
+}
+.bg-yellow-light-300 {
+    background-color: $yellow-light-300;
+}
+.bg-yellow-light-400 {
+    background-color: $yellow-light-400;
+}
+.bg-yellow-light-500 {
+    background-color: $yellow-light-500;
+}
+.bg-yellow-light-600 {
+    background-color: $yellow-light-600;
+}
+
+.bg-yellow-dark-100 {
+    background-color: $yellow-dark-100;
+}
+.bg-yellow-dark-200 {
+    background-color: $yellow-dark-200;
+}
+.bg-yellow-dark-300 {
+    background-color: $yellow-dark-300;
+}
+.bg-yellow-dark-400 {
+    background-color: $yellow-dark-400;
+}
+.bg-yellow-dark-500 {
+    background-color: $yellow-dark-500;
+}
+.bg-yellow-dark-600 {
+    background-color: $yellow-dark-600;
+}
+
+// HOVER COLORS
 
 .hover-primary {
     &:hover {
@@ -1091,428 +1493,7 @@
     }
 }
 
-// BACKGROUND COLORS
-
-.bct {
-    background-color: transparent;
-}
-
-.bg-primary-color {
-    background-color: var(--primary-color);
-}
-
-.bg-primary {
-    background-color: $primary;
-}
-.bg-secondary {
-    background-color: $secondary;
-}
-.bg-tertiary {
-    background-color: $tertiary;
-}
-
-.bg-white {
-    background-color: $white;
-}
-
-.bg-black {
-    background-color: $black;
-}
-.bg-black-light-100 {
-    background-color: $black-light-100;
-}
-.bg-black-light-200 {
-    background-color: $black-light-200;
-}
-.bg-black-light-300 {
-    background-color: $black-light-300;
-}
-.bg-black-light-400 {
-    background-color: $black-light-400;
-}
-.bg-black-light-500 {
-    background-color: $black-light-500;
-}
-.bg-black-light-600 {
-    background-color: $black-light-600;
-}
-
-.bg-red {
-    background-color: $red;
-}
-.bg-red-light-100 {
-    background-color: $red-light-100;
-}
-.bg-red-light-200 {
-    background-color: $red-light-200;
-}
-.bg-red-light-300 {
-    background-color: $red-light-300;
-}
-.bg-red-light-400 {
-    background-color: $red-light-400;
-}
-.bg-red-light-500 {
-    background-color: $red-light-500;
-}
-.bg-red-light-600 {
-    background-color: $red-light-600;
-}
-
-.bg-red-dark-100 {
-    background-color: $red-dark-100;
-}
-.bg-red-dark-200 {
-    background-color: $red-dark-200;
-}
-.bg-red-dark-300 {
-    background-color: $red-dark-300;
-}
-.bg-red-dark-400 {
-    background-color: $red-dark-400;
-}
-.bg-red-dark-500 {
-    background-color: $red-dark-500;
-}
-.bg-red-dark-600 {
-    background-color: $red-dark-600;
-}
-
-.bg-blue {
-    background-color: $blue;
-}
-.bg-blue-light-100 {
-    background-color: $blue-light-100;
-}
-.bg-blue-light-200 {
-    background-color: $blue-light-200;
-}
-.bg-blue-light-300 {
-    background-color: $blue-light-300;
-}
-.bg-blue-light-400 {
-    background-color: $blue-light-400;
-}
-.bg-blue-light-500 {
-    background-color: $blue-light-500;
-}
-.bg-blue-light-600 {
-    background-color: $blue-light-600;
-}
-
-.bg-blue-dark-100 {
-    background-color: $blue-dark-100;
-}
-.bg-blue-dark-200 {
-    background-color: $blue-dark-200;
-}
-.bg-blue-dark-300 {
-    background-color: $blue-dark-300;
-}
-.bg-blue-dark-400 {
-    background-color: $blue-dark-400;
-}
-.bg-blue-dark-500 {
-    background-color: $blue-dark-500;
-}
-.bg-blue-dark-600 {
-    background-color: $blue-dark-600;
-}
-
-.bg-brown {
-    background-color: $brown;
-}
-.bg-brown-light-100 {
-    background-color: $brown-light-100;
-}
-.bg-brown-light-200 {
-    background-color: $brown-light-200;
-}
-.bg-brown-light-300 {
-    background-color: $brown-light-300;
-}
-.bg-brown-light-400 {
-    background-color: $brown-light-400;
-}
-.bg-brown-light-500 {
-    background-color: $brown-light-500;
-}
-.bg-brown-light-600 {
-    background-color: $brown-light-600;
-}
-
-.bg-brown-dark-100 {
-    background-color: $brown-dark-100;
-}
-.bg-brown-dark-200 {
-    background-color: $brown-dark-200;
-}
-.bg-brown-dark-300 {
-    background-color: $brown-dark-300;
-}
-.bg-brown-dark-400 {
-    background-color: $brown-dark-400;
-}
-.bg-brown-dark-500 {
-    background-color: $brown-dark-500;
-}
-.bg-brown-dark-600 {
-    background-color: $brown-dark-600;
-}
-
-.bg-gray {
-    background-color: $gray;
-}
-.bg-gray-light-100 {
-    background-color: $gray-light-100;
-}
-.bg-gray-light-200 {
-    background-color: $gray-light-200;
-}
-.bg-gray-light-300 {
-    background-color: $gray-light-300;
-}
-.bg-gray-light-400 {
-    background-color: $gray-light-400;
-}
-.bg-gray-light-500 {
-    background-color: $gray-light-500;
-}
-.bg-gray-light-600 {
-    background-color: $gray-light-600;
-}
-
-.bg-gray-dark-100 {
-    background-color: $gray-dark-100;
-}
-.bg-gray-dark-200 {
-    background-color: $gray-dark-200;
-}
-.bg-gray-dark-300 {
-    background-color: $gray-dark-300;
-}
-.bg-gray-dark-400 {
-    background-color: $gray-dark-400;
-}
-.bg-gray-dark-500 {
-    background-color: $gray-dark-500;
-}
-.bg-gray-dark-600 {
-    background-color: $gray-dark-600;
-}
-
-.bg-green {
-    background-color: $green;
-}
-.bg-green-light-100 {
-    background-color: $green-light-100;
-}
-.bg-green-light-200 {
-    background-color: $green-light-200;
-}
-.bg-green-light-300 {
-    background-color: $green-light-300;
-}
-.bg-green-light-400 {
-    background-color: $green-light-400;
-}
-.bg-green-light-500 {
-    background-color: $green-light-500;
-}
-.bg-green-light-600 {
-    background-color: $green-light-600;
-}
-
-.bg-green-dark-100 {
-    background-color: $green-dark-100;
-}
-.bg-green-dark-200 {
-    background-color: $green-dark-200;
-}
-.bg-green-dark-300 {
-    background-color: $green-dark-300;
-}
-.bg-green-dark-400 {
-    background-color: $green-dark-400;
-}
-.bg-green-dark-500 {
-    background-color: $green-dark-500;
-}
-.bg-green-dark-600 {
-    background-color: $green-dark-600;
-}
-
-.bg-orange {
-    background-color: $orange;
-}
-.bg-orange-light-100 {
-    background-color: $orange-light-100;
-}
-.bg-orange-light-200 {
-    background-color: $orange-light-200;
-}
-.bg-orange-light-300 {
-    background-color: $orange-light-300;
-}
-.bg-orange-light-400 {
-    background-color: $orange-light-400;
-}
-.bg-orange-light-500 {
-    background-color: $orange-light-500;
-}
-.bg-orange-light-600 {
-    background-color: $orange-light-600;
-}
-
-.bg-orange-dark-100 {
-    background-color: $orange-dark-100;
-}
-.bg-orange-dark-200 {
-    background-color: $orange-dark-200;
-}
-.bg-orange-dark-300 {
-    background-color: $orange-dark-300;
-}
-.bg-orange-dark-400 {
-    background-color: $orange-dark-400;
-}
-.bg-orange-dark-500 {
-    background-color: $orange-dark-500;
-}
-.bg-orange-dark-600 {
-    background-color: $orange-dark-600;
-}
-
-.bg-pink {
-    background-color: $pink;
-}
-.bg-pink-light-100 {
-    background-color: $pink-light-100;
-}
-.bg-pink-light-200 {
-    background-color: $pink-light-200;
-}
-.bg-pink-light-300 {
-    background-color: $pink-light-300;
-}
-.bg-pink-light-400 {
-    background-color: $pink-light-400;
-}
-.bg-pink-light-500 {
-    background-color: $pink-light-500;
-}
-.bg-pink-light-600 {
-    background-color: $pink-light-600;
-}
-
-.bg-pink-dark-100 {
-    background-color: $pink-dark-100;
-}
-.bg-pink-dark-200 {
-    background-color: $pink-dark-200;
-}
-.bg-pink-dark-300 {
-    background-color: $pink-dark-300;
-}
-.bg-pink-dark-400 {
-    background-color: $pink-dark-400;
-}
-.bg-pink-dark-500 {
-    background-color: $pink-dark-500;
-}
-.bg-pink-dark-600 {
-    background-color: $pink-dark-600;
-}
-
-.bg-purple {
-    background-color: $purple;
-}
-.bg-purple-light-100 {
-    background-color: $purple-light-100;
-}
-.bg-purple-light-200 {
-    background-color: $purple-light-200;
-}
-.bg-purple-light-300 {
-    background-color: $purple-light-300;
-}
-.bg-purple-light-400 {
-    background-color: $purple-light-400;
-}
-.bg-purple-light-500 {
-    background-color: $purple-light-500;
-}
-.bg-purple-light-600 {
-    background-color: $purple-light-600;
-}
-
-.bg-purple-dark-100 {
-    background-color: $purple-dark-100;
-}
-.bg-purple-dark-200 {
-    background-color: $purple-dark-200;
-}
-.bg-purple-dark-300 {
-    background-color: $purple-dark-300;
-}
-.bg-purple-dark-400 {
-    background-color: $purple-dark-400;
-}
-.bg-purple-dark-500 {
-    background-color: $purple-dark-500;
-}
-.bg-purple-dark-600 {
-    background-color: $purple-dark-600;
-}
-
-.bg-yellow {
-    background-color: $yellow;
-}
-.bg-yellow-light-100 {
-    background-color: $yellow-light-100;
-}
-.bg-yellow-light-200 {
-    background-color: $yellow-light-200;
-}
-.bg-yellow-light-300 {
-    background-color: $yellow-light-300;
-}
-.bg-yellow-light-400 {
-    background-color: $yellow-light-400;
-}
-.bg-yellow-light-500 {
-    background-color: $yellow-light-500;
-}
-.bg-yellow-light-600 {
-    background-color: $yellow-light-600;
-}
-
-.bg-yellow-dark-100 {
-    background-color: $yellow-dark-100;
-}
-.bg-yellow-dark-200 {
-    background-color: $yellow-dark-200;
-}
-.bg-yellow-dark-300 {
-    background-color: $yellow-dark-300;
-}
-.bg-yellow-dark-400 {
-    background-color: $yellow-dark-400;
-}
-.bg-yellow-dark-500 {
-    background-color: $yellow-dark-500;
-}
-.bg-yellow-dark-600 {
-    background-color: $yellow-dark-600;
-}
-
 // HOVER BACKGROUND COLORS
-
-.hover-bg-primary-color {
-    &:hover {
-        background-color: var(--primary-color);
-    }
-}
 
 .hover-bg-primary {
     &:hover {
@@ -2180,9 +2161,7 @@
 .bc-inherit {
     border-color: inherit;
 }
-.bc-primary-color {
-    border-color: var(--primary-color);
-}
+
 .bc-primary {
     border-color: $primary;
 }
@@ -2602,6 +2581,12 @@
 
 .placeholder-primary-color::placeholder {
     color: var(--primary-color);
+}
+.placeholder-secondary-color::placeholder {
+    color: var(--secondary-color);
+}
+.placeholder-tertiary-color::placeholder {
+    color: var(--tertiary-color);
 }
 
 .placeholder-black::placeholder {
