@@ -83,6 +83,12 @@
 .ts05 {
     transform: scale(0.5);
 }
+.tsx-1 {
+    transform: scaleX(-1);
+}
+.tsy-1 {
+    transform: scaleY(-1);
+}
 
 .toc {
     transform-origin: center;

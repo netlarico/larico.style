@@ -12,6 +12,9 @@
 .transparent {
     color: transparent;
 }
+.ci {
+    color: inherit;
+}
 .white {
     color: $white;
 }
@@ -416,13 +419,12 @@
     color: $yellow-dark-600;
 }
 
-.ci {
-    color: inherit;
-}
-
 // BACKGROUND COLORS
 
-.bct {
+.bgn {
+    background: none;
+}
+.bgct {
     background-color: transparent;
 }
 
@@ -2579,14 +2581,14 @@
 
 // PLACEHOLDER COLOR
 
-.placeholder-primary-color::placeholder {
-    color: var(--primary-color);
+.placeholder-primary::placeholder {
+    color: $primary;
 }
-.placeholder-secondary-color::placeholder {
-    color: var(--secondary-color);
+.placeholder-secondary::placeholder {
+    color: $secondary;
 }
-.placeholder-tertiary-color::placeholder {
-    color: var(--tertiary-color);
+.placeholder-tertiary::placeholder {
+    color: $tertiary;
 }
 
 .placeholder-black::placeholder {

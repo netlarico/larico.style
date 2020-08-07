@@ -69,6 +69,10 @@ button {
   color: transparent;
 }
 
+.ci {
+  color: inherit;
+}
+
 .white {
   color: #fff;
 }
@@ -569,11 +573,11 @@ button {
   color: #404000;
 }
 
-.ci {
-  color: inherit;
+.bgn {
+  background: none;
 }
 
-.bct {
+.bgct {
   background-color: transparent;
 }
 
@@ -2629,16 +2633,16 @@ button {
   border-color: #404000;
 }
 
-.placeholder-primary-color::placeholder {
-  color: var(--primary-color);
+.placeholder-primary::placeholder {
+  color: var(--primary-color, #3153d8);
 }
 
-.placeholder-secondary-color::placeholder {
-  color: var(--secondary-color);
+.placeholder-secondary::placeholder {
+  color: var(--secondary-color, #e81459);
 }
 
-.placeholder-tertiary-color::placeholder {
-  color: var(--tertiary-color);
+.placeholder-tertiary::placeholder {
+  color: var(--tertiary-color, #1899e4);
 }
 
 .placeholder-black::placeholder {
@@ -5496,6 +5500,14 @@ button {
   transform: scale(0.5);
 }
 
+.tsx-1 {
+  transform: scaleX(-1);
+}
+
+.tsy-1 {
+  transform: scaleY(-1);
+}
+
 .toc {
   transform-origin: center;
 }
@@ -5622,14 +5634,6 @@ button {
 
 .bgs-auto {
   background-size: auto;
-}
-
-.bn {
-  background: none;
-}
-
-.bgct {
-  background-color: transparent;
 }
 
 .oa {
@@ -6180,6 +6184,12 @@ pre {
 
 .table-format table tr:nth-child(even) {
   background-color: #f6f8fa;
+}
+
+.format1 hr {
+  border-style: solid;
+  margin: 2rem 0;
+  border-color: #efefef;
 }
 
 @media (min-width: 768px) {
@@ -10279,6 +10289,12 @@ pre {
   }
   .ts05-sm {
     transform: scale(0.5);
+  }
+  .tsx-1-sm {
+    transform: scaleX(-1);
+  }
+  .tsy-1-sm {
+    transform: scaleY(-1);
   }
   .toc-sm {
     transform-origin: center;
@@ -14407,6 +14423,12 @@ pre {
   .ts05-md {
     transform: scale(0.5);
   }
+  .tsx-1-md {
+    transform: scaleX(-1);
+  }
+  .tsy-1-md {
+    transform: scaleY(-1);
+  }
   .toc-md {
     transform-origin: center;
   }
@@ -18534,6 +18556,12 @@ pre {
   .ts05-lg {
     transform: scale(0.5);
   }
+  .tsx-1-lg {
+    transform: scaleX(-1);
+  }
+  .tsy-1-lg {
+    transform: scaleY(-1);
+  }
   .toc-lg {
     transform-origin: center;
   }
@@ -22660,6 +22688,12 @@ pre {
   }
   .ts05-xl {
     transform: scale(0.5);
+  }
+  .tsx-1-xl {
+    transform: scaleX(-1);
+  }
+  .tsy-1-xl {
+    transform: scaleY(-1);
   }
   .toc-xl {
     transform-origin: center;

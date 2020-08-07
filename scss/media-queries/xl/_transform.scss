@@ -85,6 +85,13 @@
     transform: scale(0.5);
 }
 
+.tsx-1-xl {
+    transform: scaleX(-1);
+}
+.tsy-1-xl {
+    transform: scaleY(-1);
+}
+
 .toc-xl {
     transform-origin: center;
 }
