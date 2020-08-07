@@ -5,23 +5,7 @@
 
     // COLORS
 
-    .primary-lg {
-        color: $primary;
-    }
-    .secondary-lg {
-        color: $secondary;
-    }
-    .tertiary-lg {
-        color: $tertiary;
-    }
-
-    .white-lg {
-        color: $white;
-    }
-
-    .black-lg {
-        color: $black;
-    }
+    @import 'lg/_colors';
 
     // DISPLAY GRID
     @import 'lg/_display-grid';

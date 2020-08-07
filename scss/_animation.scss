@@ -25,7 +25,7 @@
         transform: scale(1.1, 0.9) translateY(0);
     }
     30% {
-        transform: scale(0.9, 1.1) translateY(-100px);
+        transform: scale(0.9, 1.1) translateY(-50px);
     }
     50% {
         transform: scale(1, 1) translateY(0);
@@ -38,5 +38,87 @@
     }
     100% {
         transform: scale(1, 1) translateY(0);
+    }
+}
+
+.animate-shake {
+    animation: shake 4.72s ease infinite;
+}
+
+@keyframes shake {
+    0% {
+        transform: translate(0, 0);
+    }
+    1.78571% {
+        transform: translate(8px, 0);
+    }
+    3.57143% {
+        transform: translate(0, 0);
+    }
+    5.35714% {
+        transform: translate(8px, 0);
+    }
+    7.14286% {
+        transform: translate(0, 0);
+    }
+    8.92857% {
+        transform: translate(8px, 0);
+    }
+    10.71429% {
+        transform: translate(0, 0);
+    }
+    100% {
+        transform: translate(0, 0);
+    }
+}
+
+.animate-ring {
+    animation: ring 1s infinite ease-in-out;
+}
+
+@keyframes ring {
+    0% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    10% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    20% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    30% {
+        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+    }
+    40% {
+        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+    }
+    50% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+    100% {
+        -webkit-transform: rotate(0) scale(1) skew(1deg);
+    }
+}
+
+// UP DOWN
+
+.animate-up-down {
+    animation: up-down 1s ease 0s infinite normal none running;
+}
+
+@keyframes up-down {
+    50% {
+        margin-top: -20px;
+    }
+}
+
+// Heartbeat
+.animate-heartbeat {
+    animation: heartbeat 0.5s infinite;
+}
+
+@keyframes heartbeat {
+    50% {
+        transform: scale(1.1);
     }
 }
