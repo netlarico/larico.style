@@ -1,6 +1,6 @@
 ## larico.style
 
-A CSS Framework - Beta version - continuous update...
+A CSS Framework
 
 ---
 
