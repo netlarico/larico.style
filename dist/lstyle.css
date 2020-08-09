@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! larico.style v1.0 | MIT License | (https://larico.style/) */
+/*! larico.style v1.0.0 | MIT License | (https://larico.style/) */
 :root {
   --primary-font: '';
 }
@@ -27,6 +27,10 @@ button {
 :focus {
   outline: none;
   box-shadow: 0px 0px 0px 2px var(--primary-color, #3153d8);
+}
+
+img {
+  max-width: 100%;
 }
 
 @media (max-width: 767px) {
@@ -3944,6 +3948,62 @@ button {
 
 .o12 {
   order: 12;
+}
+
+.bia {
+  break-inside: avoid-column;
+}
+
+.cc1 {
+  column-count: 1;
+}
+
+.cc2 {
+  column-count: 2;
+}
+
+.cc3 {
+  column-count: 3;
+}
+
+.cc4 {
+  column-count: 4;
+}
+
+.cc5 {
+  column-count: 5;
+}
+
+.cc6 {
+  column-count: 6;
+}
+
+.cc7 {
+  column-count: 7;
+}
+
+.cc8 {
+  column-count: 8;
+}
+
+.cc9 {
+  column-count: 9;
+}
+
+.cc10 {
+  column-count: 10;
+}
+
+.cc11 {
+  column-count: 11;
+}
+
+.cc12 {
+  column-count: 12;
+}
+
+.caa {
+  column-span: all;
 }
 
 .t0 {
@@ -10173,6 +10233,9 @@ pre {
   .of-none-sm {
     object-fit: none;
   }
+  .bia-sm {
+    break-inside: avoid-column;
+  }
   .cc1-sm {
     column-count: 1;
   }
@@ -14305,6 +14368,9 @@ pre {
   }
   .of-none-md {
     object-fit: none;
+  }
+  .bia-md {
+    break-inside: avoid-column;
   }
   .cc1-md {
     column-count: 1;
@@ -18439,6 +18505,9 @@ pre {
   .of-none-lg {
     object-fit: none;
   }
+  .bia-lg {
+    break-inside: avoid-column;
+  }
   .cc1-lg {
     column-count: 1;
   }
@@ -22571,6 +22640,9 @@ pre {
   }
   .of-none-xl {
     object-fit: none;
+  }
+  .bia-xl {
+    break-inside: avoid-column;
   }
   .cc1-xl {
     column-count: 1;
