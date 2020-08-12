@@ -211,28 +211,6 @@ pre {
     padding: 12px;
     overflow: auto;
 }
-// TABLE
-
-.table-format {
-    table {
-        border-spacing: 0;
-        border-collapse: collapse;
-        min-width: 300px;
-        td,
-        th {
-            padding: 6px 13px;
-            border: 1px solid #dfe2e5;
-        }
-        th {
-            text-align: left;
-        }
-        tr {
-            &:nth-child(even) {
-                background-color: #f6f8fa;
-            }
-        }
-    }
-}
 
 // FOR BUTTONS
 

@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*! larico.style v1.0.0 | MIT License | (https://larico.style/) */
+/*! lstyle v1.0.3 | MIT License | (https://larico.style/) */
 :root {
   --primary-font: '';
 }
@@ -4090,6 +4090,14 @@ img {
   font-size: 4rem;
 }
 
+.fs80 {
+  font-size: 5rem;
+}
+
+.fs100 {
+  font-size: 6.25rem;
+}
+
 .smoothing-antialiased {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -4244,8 +4252,8 @@ img {
   width: 4rem;
 }
 
-.w72 {
-  width: 4.5rem;
+.w80 {
+  width: 5rem;
 }
 
 .wfull {
@@ -6226,30 +6234,30 @@ pre {
   overflow: auto;
 }
 
-.table-format table {
+.format1 hr {
+  border-style: solid;
+  margin: 2rem 0;
+  border-color: #efefef;
+}
+
+.format1 table {
   border-spacing: 0;
   border-collapse: collapse;
   min-width: 300px;
 }
 
-.table-format table td,
-.table-format table th {
+.format1 table td,
+.format1 table th {
   padding: 6px 13px;
   border: 1px solid #dfe2e5;
 }
 
-.table-format table th {
+.format1 table th {
   text-align: left;
 }
 
-.table-format table tr:nth-child(even) {
+.format1 table tr:nth-child(even) {
   background-color: #f6f8fa;
-}
-
-.format1 hr {
-  border-style: solid;
-  margin: 2rem 0;
-  border-color: #efefef;
 }
 
 @media (min-width: 768px) {
@@ -9823,6 +9831,12 @@ pre {
   .fs64-sm {
     font-size: 4rem;
   }
+  .fs80-sm {
+    font-size: 5rem;
+  }
+  .fs100-sm {
+    font-size: 6.25rem;
+  }
   .fwn-sm {
     font-weight: normal;
   }
@@ -9942,8 +9956,8 @@ pre {
   .w64-sm {
     width: 4rem;
   }
-  .w72-sm {
-    width: 4.5rem;
+  .w80-sm {
+    width: 5rem;
   }
   .wfull-sm {
     width: 100%;
@@ -13959,6 +13973,12 @@ pre {
   .fs64-md {
     font-size: 4rem;
   }
+  .fs80-md {
+    font-size: 5rem;
+  }
+  .fs100-md {
+    font-size: 6.25rem;
+  }
   .fwn-md {
     font-weight: normal;
   }
@@ -14078,8 +14098,8 @@ pre {
   .w64-md {
     width: 4rem;
   }
-  .w72-md {
-    width: 4.5rem;
+  .w80-md {
+    width: 5rem;
   }
   .wfull-md {
     width: 100%;
@@ -18095,6 +18115,12 @@ pre {
   .fs64-lg {
     font-size: 4rem;
   }
+  .fs80-lg {
+    font-size: 5rem;
+  }
+  .fs100-lg {
+    font-size: 6.25rem;
+  }
   .fwn-lg {
     font-weight: normal;
   }
@@ -18214,8 +18240,8 @@ pre {
   .w64-lg {
     width: 4rem;
   }
-  .w72-lg {
-    width: 4.5rem;
+  .w80-lg {
+    width: 5rem;
   }
   .wfull-lg {
     width: 100%;
@@ -22231,6 +22257,12 @@ pre {
   .fs64-xl {
     font-size: 4rem;
   }
+  .fs80-xl {
+    font-size: 5rem;
+  }
+  .fs100-xl {
+    font-size: 6.25rem;
+  }
   .fwn-xl {
     font-weight: normal;
   }
@@ -22350,8 +22382,8 @@ pre {
   .w64-xl {
     width: 4rem;
   }
-  .w72-xl {
-    width: 4.5rem;
+  .w80-xl {
+    width: 5rem;
   }
   .wfull-xl {
     width: 100%;
