@@ -1,42 +1,52 @@
 .fs-i {
     font-size: inherit;
 }
+.fs-custom {
+    font-size: var(--font-custom-size);
+}
+.fs-custom2 {
+    font-size: var(--font-custom-size2);
+}
+.fs-custom3 {
+    font-size: var(--font-custom-size3);
+}
+
 .fs8 {
-    font-size: $px8;
+    font-size: $fs8;
 }
 .fs12 {
-    font-size: $px12;
+    font-size: $fs12;
 }
 .fs14 {
-    font-size: $px14;
+    font-size: $fs14;
 }
 .fs16 {
-    font-size: $px16;
+    font-size: $fs16;
 }
 .fs18 {
-    font-size: $px18;
+    font-size: $fs18;
 }
 .fs24 {
-    font-size: $px24;
+    font-size: $fs24;
 }
 .fs32 {
-    font-size: $px32;
+    font-size: $fs32;
 }
 .fs40 {
-    font-size: $px40;
+    font-size: $fs40;
 }
 .fs48 {
-    font-size: $px48;
+    font-size: $fs48;
 }
 .fs56 {
-    font-size: $px56;
+    font-size: $fs56;
 }
 .fs64 {
-    font-size: $px64;
+    font-size: $fs64;
 }
 .fs80 {
-    font-size: $px80;
+    font-size: $fs80;
 }
 .fs100 {
-    font-size: $px100;
+    font-size: $fs100;
 }

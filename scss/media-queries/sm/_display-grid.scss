@@ -4,6 +4,15 @@
 }
 
 /* gaps */
+.gap-custom-sm {
+    gap: var(--gap-custom-sm);
+}
+.rg-custom-sm {
+    row-gap: var(--rg-custom-sm);
+}
+.cg-custom-sm {
+    column-gap: var(--cg-custom-sm);
+}
 
 .gap1-sm {
     gap: $px8;

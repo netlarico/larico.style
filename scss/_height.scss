@@ -1,35 +1,44 @@
 .h8 {
-    height: $px8;
+    height: 8px;
 }
 .h16 {
-    height: $px16;
+    height: 16px;
 }
 .h24 {
-    height: $px24;
+    height: 24px;
 }
 .h32 {
-    height: $px32;
+    height: 32px;
 }
 .h40 {
-    height: $px40;
+    height: 40px;
 }
 .h48 {
-    height: $px48;
+    height: 48px;
 }
 .h56 {
-    height: $px56;
+    height: 56px;
 }
 .h64 {
-    height: $px64;
+    height: 64px;
+}
+.h72 {
+    height: 72px;
+}
+.h80 {
+    height: 80px;
+}
+.h100 {
+    height: 100px;
 }
 
 .hfull {
     height: 100%;
 }
-.h100vh {
-    height: 100vh;
-}
-
 .ha {
     height: auto;
+}
+
+.h100vh {
+    height: 100vh;
 }

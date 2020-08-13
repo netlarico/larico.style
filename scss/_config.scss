@@ -1,10 +1,3 @@
-// small 13px
-// medium 16px (default)
-// large 18px
-// x-large 24px
-// xx-large 32px
-// xxx-large 48px
-
 // FONT FAMILY
 :root {
     --primary-font: '';
@@ -28,7 +21,25 @@ $md: 1024px;
 $lg: 1330px;
 $xl: 1660px;
 
-// Sizes
+// Font sizes
+
+$fs8: var(--font-8, 0.5rem);
+$fs12: var(--font-12, 0.75rem);
+$fs13: var(--font-13, 0.8125rem);
+$fs14: var(--font-14, 0.875rem);
+$fs16: var(--font-16, 1rem);
+$fs18: var(--font-18, 1.125rem);
+$fs24: var(--font-24, 1.5rem);
+$fs32: var(--font-32, 2rem);
+$fs40: var(--font-40, 2.5rem);
+$fs48: var(--font-48, 3rem);
+$fs56: var(--font-56, 3.5rem);
+$fs64: var(--font-64, 4rem);
+$fs72: var(--font-72, 4.5rem);
+$fs80: var(--font-80, 5rem);
+$fs100: var(--font-100, 6.25rem);
+
+// MARGINS & PADDINGS & GAPS
 
 $px8: 0.5rem;
 $px12: 0.75rem;
@@ -42,14 +53,15 @@ $px40: 2.5rem;
 $px48: 3rem;
 $px56: 3.5rem;
 $px64: 4rem;
+$px72: 4.5rem;
 $px80: 5rem;
 $px100: 6.25rem;
 
 // COLORS
 
 $primary: var(--primary-color, #3153d8);
-$secondary: var(--secondary-color, #e81459);
-$tertiary: var(--tertiary-color, #1899e4);
+$secondary: var(--secondary-color, #2ab7ca);
+$tertiary: var(--tertiary-color, #fed766);
 
 $white: #fff;
 $focus: $primary;
@@ -62,7 +74,7 @@ $black-light-400: #808080;
 $black-light-500: #9f9f9f;
 $black-light-600: #bfbfbf;
 
-$red: #ff0000;
+$red: var(--red, #ff0000);
 $red-dark-100: #df0000;
 $red-dark-200: #bf0000;
 $red-dark-300: #9f0000;
@@ -77,7 +89,7 @@ $red-light-400: #ff9f9f;
 $red-light-500: #ffbfbf;
 $red-light-600: #ffdfdf;
 
-$blue: #0000ff;
+$blue: var(--blue, #0000ff);
 $blue-dark-100: #0000df;
 $blue-dark-200: #0000bf;
 $blue-dark-300: #00009f;
@@ -92,7 +104,7 @@ $blue-light-400: #9f9fff;
 $blue-light-500: #bfbfff;
 $blue-light-600: #dfdfff;
 
-$brown: #964b00;
+$brown: var(--brown, #964b00);
 $brown-dark-100: #834200;
 $brown-dark-200: #713800;
 $brown-dark-300: #5e2f00;
@@ -107,7 +119,7 @@ $brown-light-400: #cba580;
 $brown-light-500: #d8bc9f;
 $brown-light-600: #e5d2bf;
 
-$gray: #808080;
+$gray: var(--gray, #808080);
 $gray-dark-100: #707070;
 $gray-dark-200: #606060;
 $gray-dark-300: #505050;
@@ -122,7 +134,7 @@ $gray-light-400: #cfcfcf;
 $gray-light-500: #dfdfdf;
 $gray-light-600: #efefef;
 
-$green: #008000;
+$green: var(--green, #008000);
 $green-dark-100: #00df00;
 $green-dark-200: #00bf00;
 $green-dark-300: #009f00;
@@ -137,7 +149,7 @@ $green-light-400: #9fff9f;
 $green-light-500: #bfffbf;
 $green-light-600: #dfffdf;
 
-$orange: #ffa500;
+$orange: var(--orange, #ffa500);
 $orange-dark-100: #df9000;
 $orange-dark-200: #bf7c00;
 $orange-dark-300: #9f6700;
@@ -152,7 +164,7 @@ $orange-light-400: #ffdd9f;
 $orange-light-500: #ffe9bf;
 $orange-light-600: #fff4df;
 
-$pink: #ffc0cb;
+$pink: var(--pink, #ffc0cb);
 $pink-dark-100: #dfa8b2;
 $pink-dark-200: #bf9098;
 $pink-dark-300: #9f787f;
@@ -167,7 +179,7 @@ $pink-light-400: #ffe7ec;
 $pink-light-500: #ffeff2;
 $pink-light-600: #fff7f9;
 
-$purple: #a020f0;
+$purple: var(--purple, #a020f0);
 $purple-dark-100: #8c1cd2;
 $purple-dark-200: #7818b4;
 $purple-dark-300: #641496;
@@ -182,7 +194,7 @@ $purple-light-400: #dbabf9;
 $purple-light-500: #e7c7fb;
 $purple-light-600: #f3e3fd;
 
-$yellow: #ffff00;
+$yellow: var(--yellow, #ffff00);
 $yellow-dark-100: #dfdf00;
 $yellow-dark-200: #bfbf00;
 $yellow-dark-300: #9f9f00;

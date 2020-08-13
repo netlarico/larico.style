@@ -11,6 +11,31 @@
 .p0 {
     padding: 0;
 }
+
+.p-custom {
+    padding: var(--p-custom);
+}
+.py-custom {
+    padding-top: var(--py-custom);
+    padding-bottom: var(--py-custom);
+}
+.px-custom {
+    padding-left: var(--px-custom);
+    padding-right: var(--px-custom);
+}
+.pt-custom {
+    padding-top: var(--pt-custom);
+}
+.pr-custom {
+    padding-right: var(--pr-custom);
+}
+.pb-custom {
+    padding-bottom: var(--pb-custom);
+}
+.pl-custom {
+    padding-left: var(--pl-custom);
+}
+
 .p1 {
     padding: $px8;
 }
@@ -35,6 +60,7 @@
 .p8 {
     padding: $px64;
 }
+
 .py0 {
     padding-top: 0;
     padding-bottom: 0;

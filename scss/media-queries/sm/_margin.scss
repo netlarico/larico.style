@@ -1,3 +1,27 @@
+.m-custom-sm {
+    margin: var(--m-custom-sm);
+}
+.my-custom-sm {
+    margin-top: var(--my-custom-sm);
+    margin-bottom: var(--my-custom-sm);
+}
+.mx-custom-sm {
+    margin-left: var(--mx-custom-sm);
+    margin-right: var(--mx-custom-sm);
+}
+.mt-custom-sm {
+    margin-top: var(--mt-custom-sm);
+}
+.mr-custom-sm {
+    margin-right: var(--mr-custom-sm);
+}
+.mb-custom-sm {
+    margin-bottom: var(--mb-custom-sm);
+}
+.ml-custom-sm {
+    margin-left: var(--ml-custom-sm);
+}
+
 .m1-sm {
     margin: $px8;
 }

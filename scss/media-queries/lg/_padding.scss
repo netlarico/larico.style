@@ -11,6 +11,31 @@
 .p0-lg {
     padding: 0;
 }
+
+.p-custom-lg {
+    padding: var(--p-custom-lg);
+}
+.py-custom-lg {
+    padding-top: var(--py-custom-lg);
+    padding-bottom: var(--py-custom-lg);
+}
+.px-custom-lg {
+    padding-left: var(--px-custom-lg);
+    padding-right: var(--px-custom-lg);
+}
+.pt-custom-lg {
+    padding-top: var(--pt-custom-lg);
+}
+.pr-custom-lg {
+    padding-right: var(--pr-custom-lg);
+}
+.pb-custom-lg {
+    padding-bottom: var(--pb-custom-lg);
+}
+.pl-custom-lg {
+    padding-left: var(--pl-custom-lg);
+}
+
 .p1-lg {
     padding: $px8;
 }

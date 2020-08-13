@@ -1,43 +1,52 @@
 .fs-i-lg {
     font-size: inherit;
 }
+.fs-custom-lg {
+    font-size: var(--font-custom-size-lg);
+}
+.fs-custom2-lg {
+    font-size: var(--font-custom-size2-lg);
+}
+.fs-custom3-lg {
+    font-size: var(--font-custom-size3-lg);
+}
 
 .fs8-lg {
-    font-size: $px8;
+    font-size: $fs8;
 }
 .fs12-lg {
-    font-size: $px12;
+    font-size: $fs12;
 }
 .fs14-lg {
-    font-size: $px14;
+    font-size: $fs14;
 }
 .fs16-lg {
-    font-size: $px16;
+    font-size: $fs16;
 }
 .fs18-lg {
-    font-size: $px18;
+    font-size: $fs18;
 }
 .fs24-lg {
-    font-size: $px24;
+    font-size: $fs24;
 }
 .fs32-lg {
-    font-size: $px32;
+    font-size: $fs32;
 }
 .fs40-lg {
-    font-size: $px40;
+    font-size: $fs40;
 }
 .fs48-lg {
-    font-size: $px48;
+    font-size: $fs48;
 }
 .fs56-lg {
-    font-size: $px56;
+    font-size: $fs56;
 }
 .fs64-lg {
-    font-size: $px64;
+    font-size: $fs64;
 }
 .fs80-lg {
-    font-size: $px80;
+    font-size: $fs80;
 }
 .fs100-lg {
-    font-size: $px100;
+    font-size: $fs100;
 }

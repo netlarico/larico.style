@@ -1,3 +1,27 @@
+.m-custom-lg {
+    margin: var(--m-custom-lg);
+}
+.my-custom-lg {
+    margin-top: var(--my-custom-lg);
+    margin-bottom: var(--my-custom-lg);
+}
+.mx-custom-lg {
+    margin-left: var(--mx-custom-lg);
+    margin-right: var(--mx-custom-lg);
+}
+.mt-custom-lg {
+    margin-top: var(--mt-custom-lg);
+}
+.mr-custom-lg {
+    margin-right: var(--mr-custom-lg);
+}
+.mb-custom-lg {
+    margin-bottom: var(--mb-custom-lg);
+}
+.ml-custom-lg {
+    margin-left: var(--ml-custom-lg);
+}
+
 .m1-lg {
     margin: $px8;
 }

@@ -1,3 +1,27 @@
+.m-custom-md {
+    margin: var(--m-custom-md);
+}
+.my-custom-md {
+    margin-top: var(--my-custom-md);
+    margin-bottom: var(--my-custom-md);
+}
+.mx-custom-md {
+    margin-left: var(--mx-custom-md);
+    margin-right: var(--mx-custom-md);
+}
+.mt-custom-md {
+    margin-top: var(--mt-custom-md);
+}
+.mr-custom-md {
+    margin-right: var(--mr-custom-md);
+}
+.mb-custom-md {
+    margin-bottom: var(--mb-custom-md);
+}
+.ml-custom-md {
+    margin-left: var(--ml-custom-md);
+}
+
 .m1-md {
     margin: $px8;
 }

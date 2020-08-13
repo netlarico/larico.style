@@ -11,6 +11,31 @@
 .p0-md {
     padding: 0;
 }
+
+.p-custom-md {
+    padding: var(--p-custom-md);
+}
+.py-custom-md {
+    padding-top: var(--py-custom-md);
+    padding-bottom: var(--py-custom-md);
+}
+.px-custom-md {
+    padding-left: var(--px-custom-md);
+    padding-right: var(--px-custom-md);
+}
+.pt-custom-md {
+    padding-top: var(--pt-custom-md);
+}
+.pr-custom-md {
+    padding-right: var(--pr-custom-md);
+}
+.pb-custom-md {
+    padding-bottom: var(--pb-custom-md);
+}
+.pl-custom-md {
+    padding-left: var(--pl-custom-md);
+}
+
 .p1-md {
     padding: $px8;
 }

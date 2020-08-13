@@ -1,3 +1,27 @@
+.m-custom {
+    margin: var(--m-custom);
+}
+.my-custom {
+    margin-top: var(--my-custom);
+    margin-bottom: var(--my-custom);
+}
+.mx-custom {
+    margin-left: var(--mx-custom);
+    margin-right: var(--mx-custom);
+}
+.mt-custom {
+    margin-top: var(--mt-custom);
+}
+.mr-custom {
+    margin-right: var(--mr-custom);
+}
+.mb-custom {
+    margin-bottom: var(--mb-custom);
+}
+.ml-custom {
+    margin-left: var(--ml-custom);
+}
+
 .m1 {
     margin: $px8;
 }

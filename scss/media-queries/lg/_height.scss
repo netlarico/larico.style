@@ -1,35 +1,44 @@
 .h8-lg {
-    height: $px8;
+    height: 8px;
 }
 .h16-lg {
-    height: $px16;
+    height: 16px;
 }
 .h24-lg {
-    height: $px24;
+    height: 24px;
 }
 .h32-lg {
-    height: $px32;
+    height: 32px;
 }
 .h40-lg {
-    height: $px40;
+    height: 40px;
 }
 .h48-lg {
-    height: $px48;
+    height: 48px;
 }
 .h56-lg {
-    height: $px56;
+    height: 56px;
 }
 .h64-lg {
-    height: $px64;
+    height: 64px;
+}
+.h72-lg {
+    height: 72px;
+}
+.h80-lg {
+    height: 80px;
+}
+.h100-lg {
+    height: 100px;
 }
 
 .hfull-lg {
     height: 100%;
 }
-.h100vh-lg {
-    height: 100vh;
-}
-
 .ha-lg {
     height: auto;
+}
+
+.h100vh-lg {
+    height: 100vh;
 }

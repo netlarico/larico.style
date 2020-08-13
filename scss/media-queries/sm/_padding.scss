@@ -11,6 +11,31 @@
 .p0-sm {
     padding: 0;
 }
+
+.p-custom-sm {
+    padding: var(--p-custom-sm);
+}
+.py-custom-sm {
+    padding-top: var(--py-custom-sm);
+    padding-bottom: var(--py-custom-sm);
+}
+.px-custom-sm {
+    padding-left: var(--px-custom-sm);
+    padding-right: var(--px-custom-sm);
+}
+.pt-custom-sm {
+    padding-top: var(--pt-custom-sm);
+}
+.pr-custom-sm {
+    padding-right: var(--pr-custom-sm);
+}
+.pb-custom-sm {
+    padding-bottom: var(--pb-custom-sm);
+}
+.pl-custom-sm {
+    padding-left: var(--pl-custom-sm);
+}
+
 .p1-sm {
     padding: $px8;
 }

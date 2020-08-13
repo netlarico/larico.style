@@ -2,42 +2,52 @@
     font-size: inherit;
 }
 
+.fs-custom-md {
+    font-size: var(--font-custom-size-md);
+}
+.fs-custom2-md {
+    font-size: var(--font-custom-size2-md);
+}
+.fs-custom3-md {
+    font-size: var(--font-custom-size3-md);
+}
+
 .fs8-md {
-    font-size: $px8;
+    font-size: $fs8;
 }
 .fs12-md {
-    font-size: $px12;
+    font-size: $fs12;
 }
 .fs14-md {
-    font-size: $px14;
+    font-size: $fs14;
 }
 .fs16-md {
-    font-size: $px16;
+    font-size: $fs16;
 }
 .fs18-md {
-    font-size: $px18;
+    font-size: $fs18;
 }
 .fs24-md {
-    font-size: $px24;
+    font-size: $fs24;
 }
 .fs32-md {
-    font-size: $px32;
+    font-size: $fs32;
 }
 .fs40-md {
-    font-size: $px40;
+    font-size: $fs40;
 }
 .fs48-md {
-    font-size: $px48;
+    font-size: $fs48;
 }
 .fs56-md {
-    font-size: $px56;
+    font-size: $fs56;
 }
 .fs64-md {
-    font-size: $px64;
+    font-size: $fs64;
 }
 .fs80-md {
-    font-size: $px80;
+    font-size: $fs80;
 }
 .fs100-md {
-    font-size: $px100;
+    font-size: $fs100;
 }

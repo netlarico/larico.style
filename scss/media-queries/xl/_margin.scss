@@ -1,3 +1,27 @@
+.m-custom-xl {
+    margin: var(--m-custom-xl);
+}
+.my-custom-xl {
+    margin-top: var(--my-custom-xl);
+    margin-bottom: var(--my-custom-xl);
+}
+.mx-custom-xl {
+    margin-left: var(--mx-custom-xl);
+    margin-right: var(--mx-custom-xl);
+}
+.mt-custom-xl {
+    margin-top: var(--mt-custom-xl);
+}
+.mr-custom-xl {
+    margin-right: var(--mr-custom-xl);
+}
+.mb-custom-xl {
+    margin-bottom: var(--mb-custom-xl);
+}
+.ml-custom-xl {
+    margin-left: var(--ml-custom-xl);
+}
+
 .m1-xl {
     margin: $px8;
 }

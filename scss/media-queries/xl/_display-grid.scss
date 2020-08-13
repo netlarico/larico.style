@@ -5,6 +5,16 @@
 
 /* gaps */
 
+.gap-custom-xl {
+    gap: var(--gap-custom-xl);
+}
+.rg-custom-xl {
+    row-gap: var(--rg-custom-xl);
+}
+.cg-custom-xl {
+    column-gap: var(--cg-custom-xl);
+}
+
 .gap1-xl {
     gap: $px8;
 }

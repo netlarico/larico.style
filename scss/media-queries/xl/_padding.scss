@@ -11,6 +11,31 @@
 .p0-xl {
     padding: 0;
 }
+
+.p-custom-xl {
+    padding: var(--p-custom-xl);
+}
+.py-custom-xl {
+    padding-top: var(--py-custom-xl);
+    padding-bottom: var(--py-custom-xl);
+}
+.px-custom-xl {
+    padding-left: var(--px-custom-xl);
+    padding-right: var(--px-custom-xl);
+}
+.pt-custom-xl {
+    padding-top: var(--pt-custom-xl);
+}
+.pr-custom-xl {
+    padding-right: var(--pr-custom-xl);
+}
+.pb-custom-xl {
+    padding-bottom: var(--pb-custom-xl);
+}
+.pl-custom-xl {
+    padding-left: var(--pl-custom-xl);
+}
+
 .p1-xl {
     padding: $px8;
 }
