@@ -1,40 +1,75 @@
 .w8-xl {
-    width: 8px;
+  width: 0.5rem;
 }
 .w16-xl {
-    width: 16px;
+  width: 1rem;
 }
 .w24-xl {
-    width: 24px;
+  width: 1.5rem;
 }
 .w32-xl {
-    width: 32px;
+  width: 2rem;
 }
 .w40-xl {
-    width: 40px;
+  width: 2.5rem;
 }
 .w48-xl {
-    width: 48px;
+  width: 3rem;
 }
 .w56-xl {
-    width: 56px;
+  width: 3.5rem;
 }
 .w64-xl {
-    width: 64px;
+  width: 4rem;
 }
 .w72-xl {
-    width: 72px;
+  width: 4.5rem;
 }
 .w80-xl {
-    width: 80px;
+  width: 5rem;
 }
 .w100-xl {
-    width: 100px;
+  width: 6.25rem;
 }
 
-.wfull-xl {
-    width: 100%;
+.w1pct-xl {
+  width: 8.333333333333333%;
+}
+.w2pct-xl {
+  width: 16.66666666666667%;
+}
+.w3pct-xl {
+  width: 25%;
+}
+.w4pct-xl {
+  width: 33.33333333333333%;
+}
+.w5pct-xl {
+  width: 41.66666666666667%;
+}
+.w6pct-xl {
+  width: 50%;
+}
+.w7pct-xl {
+  width: 58.33333333333334%;
+}
+.w8pct-xl {
+  width: 66.66666666666667%;
+}
+.w9pct-xl {
+  width: 75%;
+}
+.w10pct-xl {
+  width: 83.33333333333334%;
+}
+.w11pct-xl {
+  width: 91.66666666666667%;
+}
+
+.wfull-xl,
+.w12pct-xl {
+  width: 100%;
 }
 .wa-xl {
-    width: auto;
+  width: auto;
 }

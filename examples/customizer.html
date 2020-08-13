@@ -1,447 +1,445 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Custom</title>
-        <link rel="stylesheet" href="../dist/lstyle.min.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Custom</title>
+    <link rel="stylesheet" href="../dist/lstyle.min.css" />
 
-        <style>
-            :root {
-                /* font family */
-                --primary-font: 'Arial';
-                --secondary-font: 'Comic Sans MS';
-                --tertiary-font: 'Times New Roman';
+    <style>
+      :root {
+        /* font family */
+        --primary-font: 'Arial';
+        --secondary-font: 'Comic Sans MS';
+        --tertiary-font: 'Times New Roman';
 
-                /* custom colors */
+        /* custom colors */
 
-                --primary-color: #d62222;
-                --secondary-color: #35a79c;
-                --tertiary-color: #84c1ff;
+        --primary-color: #d62222;
+        --secondary-color: #35a79c;
+        --tertiary-color: #84c1ff;
 
-                --red: #fe4a49;
-                --blue: #005b96;
-                --brown: #854442;
-                --gray: #c0c5ce;
-                --green: #009688;
-                --orange: #fe8a71;
-                --pink: #fec8c1;
-                --purple: #8874a3;
-                --yellow: #f6cd61;
+        --red: #fe4a49;
+        --blue: #005b96;
+        --brown: #854442;
+        --gray: #c0c5ce;
+        --green: #009688;
+        --orange: #fe8a71;
+        --pink: #fec8c1;
+        --purple: #8874a3;
+        --yellow: #f6cd61;
 
-                /* font size */
+        /* font size */
 
-                --font-8: 0.6rem;
-                --font-14: 0.9375rem;
+        --font-8: 0.6rem;
+        --font-14: 0.9375rem;
 
-                --font-custom-size: 28px;
-                --font-custom-size2: 30px;
-                --font-custom-size3: 45px;
+        --font-custom-size: 28px;
+        --font-custom-size2: 30px;
+        --font-custom-size3: 45px;
 
-                /* responsive sizes -sm, -md, -lg, -xl */
+        /* responsive sizes -sm, -md, -lg, -xl */
 
-                --font-custom-size-sm: 12px;
-                --font-custom-size2-sm: 30px;
-                --font-custom-size3-sm: 45px;
+        --font-custom-size-sm: 12px;
+        --font-custom-size2-sm: 30px;
+        --font-custom-size3-sm: 45px;
 
-                --font-custom-size-md: 13px;
-                --font-custom-size2-md: 30px;
-                --font-custom-size3-md: 45px;
+        --font-custom-size-md: 13px;
+        --font-custom-size2-md: 30px;
+        --font-custom-size3-md: 45px;
 
-                --font-custom-size-lg: 14px;
-                --font-custom-size2-lg: 30px;
-                --font-custom-size3-lg: 45px;
+        --font-custom-size-lg: 14px;
+        --font-custom-size2-lg: 30px;
+        --font-custom-size3-lg: 45px;
 
-                --font-custom-size-xl: 15px;
-                --font-custom-size2-xl: 30px;
-                --font-custom-size3-xl: 45px;
+        --font-custom-size-xl: 15px;
+        --font-custom-size2-xl: 30px;
+        --font-custom-size3-xl: 45px;
 
-                /* Margin, Padding & Gap */
-                /* for responsive add -sm, -md, -lg, -xl */
+        /* Margin, Padding & Gap */
+        /* for responsive add -sm, -md, -lg, -xl */
 
-                --m-custom: 50px;
-                --my-custom: 18px;
-                --mx-custom: 60px;
-                --mt-custom: 10px;
-                --mr-custom: 20px;
-                --mb-custom: 30px;
-                --ml-custom: 40px;
+        --m-custom: 50px;
+        --my-custom: 18px;
+        --mx-custom: 60px;
+        --mt-custom: 10px;
+        --mr-custom: 20px;
+        --mb-custom: 30px;
+        --ml-custom: 40px;
 
-                --p-custom: 50px;
-                --py-custom: 18px;
-                --px-custom: 60px;
-                --pt-custom: 10px;
-                --pr-custom: 20px;
-                --pb-custom: 30px;
-                --pl-custom: 40px;
+        --p-custom: 50px;
+        --py-custom: 18px;
+        --px-custom: 60px;
+        --pt-custom: 10px;
+        --pr-custom: 20px;
+        --pb-custom: 30px;
+        --pl-custom: 40px;
 
-                --gap-custom: 50px;
-                --rg-custom: 18px;
-                --cg-custom: 60px;
-            }
-        </style>
-    </head>
-    <body>
-        <div class="container-sm mb4 p3 format1">
-            <h1>Customs</h1>
+        --gap-custom: 50px;
+        --rg-custom: 18px;
+        --cg-custom: 60px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container-sm mb4 p3 format1">
+      <h1>Customs</h1>
 
-            <hr />
+      <h2>Custom Fonts</h2>
 
-            <h2>Custom Fonts</h2>
+      <table>
+        <thead>
+          <tr>
+            <th id="class">Class</th>
+            <th id="">Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>--primary-font</td>
+            <td>primary font family changed</td>
+          </tr>
+          <tr>
+            <td>.secondary-font</td>
+            <td class="secondary-font">
+              custom secondary font family
+            </td>
+          </tr>
+          <tr>
+            <td>.tertiary-font</td>
+            <td class="tertiary-font">
+              custom tertiary font family
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th id="class">Class</th>
-                        <th id="">Preview</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>--primary-font</td>
-                        <td>primary font family changed</td>
-                    </tr>
-                    <tr>
-                        <td>.secondary-font</td>
-                        <td class="secondary-font">
-                            custom secondary font family
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.tertiary-font</td>
-                        <td class="tertiary-font">
-                            custom tertiary font family
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <hr />
 
-            <hr />
+      <h2>Custom colors</h2>
 
-            <h2>Custom colors</h2>
+      <h3>Texts</h3>
 
-            <h3>Texts</h3>
+      <table>
+        <thead>
+          <tr>
+            <th id="class">Class</th>
+            <th id="">Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>.primary</td>
+            <td class="primary">primary color changed</td>
+          </tr>
+          <tr>
+            <td>.secondary</td>
+            <td class="secondary">
+              secondary color changed
+            </td>
+          </tr>
+          <tr>
+            <td>.tertiary</td>
+            <td class="tertiary">
+              tertiary color changed
+            </td>
+          </tr>
+        </tbody>
+      </table>
 
-            <table>
-                <thead>
-                    <tr>
-                        <th id="class">Class</th>
-                        <th id="">Preview</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>.primary</td>
-                        <td class="primary">primary color changed</td>
-                    </tr>
-                    <tr>
-                        <td>.secondary</td>
-                        <td class="secondary">
-                            secondary color changed
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.tertiary</td>
-                        <td class="tertiary">
-                            tertiary color changed
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <h3>Custom Backgrounds</h3>
-            <div class="df-sm fs12">
-                <div class="df aic jcc white w80-sm h40 bg-red">
-                    .bg-red
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-blue">
-                    .bg-blue
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-brown">
-                    .bg-brown
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-gray">
-                    .bg-gray
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-green">
-                    .bg-green
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-orange">
-                    .bg-orange
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-pink">
-                    .bg-pink
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-purple">
-                    .bg-purple
-                </div>
-                <div class="df aic jcc white w80-sm h40 bg-yellow">
-                    .bg-yellow
-                </div>
-            </div>
-
-            <hr />
-            <h2>Custom font size</h2>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th id="class">Class</th>
-                        <th>Preview</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>.fs8</td>
-                        <td class="fs8">default fs8 changed</td>
-                    </tr>
-                    <tr>
-                        <td>.fs14</td>
-                        <td class="fs14">
-                            default fs14 changed
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.fs-custom</td>
-                        <td class="fs-custom">
-                            Custom font size
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.fs-custom2</td>
-                        <td class="fs-custom2">
-                            Custom font size 2
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.fs-custom3</td>
-                        <td class="fs-custom3">
-                            Custom font size 3
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.fs-custom-sm</td>
-                        <td class="fs-custom-sm">
-                            Custom font size sm media query
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.fs-custom-md</td>
-                        <td class="fs-custom-md">
-                            Custom font size md media query
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.fs-custom-lg</td>
-                        <td class="fs-custom-lg">
-                            Custom font size lg media query
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.fs-custom-xl</td>
-                        <td class="fs-custom-xl">
-                            Custom font size xl media query
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <hr />
-            <h2>Custom Padding</h2>
-            <p>responsive add -sm, -md, -lg, -xl</p>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th id="class">Class</th>
-                        <th>Preview</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>.p-custom</td>
-                        <td class="">
-                            <div class="p-custom">
-                                custom 50px padding
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.py-custom</td>
-                        <td class="">
-                            <div class="py-custom">
-                                top / bottom 18px padding
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.px-custom</td>
-                        <td class="">
-                            <div class="px-custom">
-                                left / right 60px padding
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.pt-custom</td>
-                        <td class="">
-                            <div class="pt-custom">
-                                10px padding top
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.pr-custom</td>
-                        <td class="">
-                            <div class="pr-custom">
-                                20px padding right
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.pb-custom</td>
-                        <td class="">
-                            <div class="pb-custom">
-                                30px padding bottom
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.pl-custom</td>
-                        <td class="">
-                            <div class="pl-custom">
-                                40px padding left
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <hr />
-            <h2>Custom margin</h2>
-            <p>responsive add -sm, -md, -lg, -xl</p>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th id="class">Class</th>
-                        <th>Preview</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>.m-custom</td>
-                        <td class="">
-                            <div class="m-custom">
-                                custom 50px margin
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.my-custom</td>
-                        <td class="">
-                            <div class="my-custom">
-                                top / bottom 18px margin
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.mx-custom</td>
-                        <td class="">
-                            <div class="mx-custom">
-                                left / right 60px margin
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.mt-custom</td>
-                        <td class="">
-                            <div class="mt-custom">
-                                10px margin top
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.mr-custom</td>
-                        <td class="">
-                            <div class="mr-custom">
-                                20px margin right
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.mb-custom</td>
-                        <td class="">
-                            <div class="mb-custom">
-                                30px margin bottom
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.ml-custom</td>
-                        <td class="">
-                            <div class="ml-custom">
-                                40px margin left
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
-
-            <hr />
-            <h2>Custom Gap spacing</h2>
-
-            <p>responsive add -sm, -md, -lg, -xl</p>
-
-            <table>
-                <thead>
-                    <tr>
-                        <th id="class">Class</th>
-                        <th>Preview</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr>
-                        <td>.gap-custom</td>
-                        <td class="">
-                            <div class="dg gap-custom">
-                                <div class="">
-                                    custom gap 50
-                                </div>
-                                <div class="">
-                                    custom gap 50
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.rg-custom</td>
-                        <td class="">
-                            <div class="dg rg-custom">
-                                <div class="">
-                                    custom row-gap 18
-                                </div>
-                                <div class="">
-                                    custom row-gap 18
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>.cg-custom</td>
-                        <td class="">
-                            <div class="dg gtc2 cg-custom">
-                                <div class="">
-                                    custom column-gap 60
-                                </div>
-                                <div class="">
-                                    custom column-gap 60
-                                </div>
-                            </div>
-                        </td>
-                    </tr>
-                </tbody>
-            </table>
+      <h3>Custom Backgrounds</h3>
+      <div class="df-sm fs12">
+        <div class="df aic jcc white w80-sm h40 bg-red">
+          .bg-red
         </div>
-    </body>
+        <div class="df aic jcc white w80-sm h40 bg-blue">
+          .bg-blue
+        </div>
+        <div class="df aic jcc white w80-sm h40 bg-brown">
+          .bg-brown
+        </div>
+        <div class="df aic jcc white w80-sm h40 bg-gray">
+          .bg-gray
+        </div>
+        <div class="df aic jcc white w80-sm h40 bg-green">
+          .bg-green
+        </div>
+        <div class="df aic jcc white w80-sm h40 bg-orange">
+          .bg-orange
+        </div>
+        <div class="df aic jcc white w80-sm h40 bg-pink">
+          .bg-pink
+        </div>
+        <div class="df aic jcc white w80-sm h40 bg-purple">
+          .bg-purple
+        </div>
+        <div class="df aic jcc white w80-sm h40 bg-yellow">
+          .bg-yellow
+        </div>
+      </div>
+
+      <hr />
+      <h2>Custom font size</h2>
+
+      <table>
+        <thead>
+          <tr>
+            <th id="class">Class</th>
+            <th>Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>.fs8</td>
+            <td class="fs8">default fs8 changed</td>
+          </tr>
+          <tr>
+            <td>.fs14</td>
+            <td class="fs14">
+              default fs14 changed
+            </td>
+          </tr>
+          <tr>
+            <td>.fs-custom</td>
+            <td class="fs-custom">
+              Custom font size
+            </td>
+          </tr>
+          <tr>
+            <td>.fs-custom2</td>
+            <td class="fs-custom2">
+              Custom font size 2
+            </td>
+          </tr>
+          <tr>
+            <td>.fs-custom3</td>
+            <td class="fs-custom3">
+              Custom font size 3
+            </td>
+          </tr>
+          <tr>
+            <td>.fs-custom-sm</td>
+            <td class="fs-custom-sm">
+              Custom font size sm media query
+            </td>
+          </tr>
+          <tr>
+            <td>.fs-custom-md</td>
+            <td class="fs-custom-md">
+              Custom font size md media query
+            </td>
+          </tr>
+          <tr>
+            <td>.fs-custom-lg</td>
+            <td class="fs-custom-lg">
+              Custom font size lg media query
+            </td>
+          </tr>
+          <tr>
+            <td>.fs-custom-xl</td>
+            <td class="fs-custom-xl">
+              Custom font size xl media query
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr />
+      <h2>Custom Padding</h2>
+      <p>responsive add -sm, -md, -lg, -xl</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th id="class">Class</th>
+            <th>Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>.p-custom</td>
+            <td class="">
+              <div class="p-custom">
+                custom 50px padding
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.py-custom</td>
+            <td class="">
+              <div class="py-custom">
+                top / bottom 18px padding
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.px-custom</td>
+            <td class="">
+              <div class="px-custom">
+                left / right 60px padding
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.pt-custom</td>
+            <td class="">
+              <div class="pt-custom">
+                10px padding top
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.pr-custom</td>
+            <td class="">
+              <div class="pr-custom">
+                20px padding right
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.pb-custom</td>
+            <td class="">
+              <div class="pb-custom">
+                30px padding bottom
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.pl-custom</td>
+            <td class="">
+              <div class="pl-custom">
+                40px padding left
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr />
+      <h2>Custom margin</h2>
+      <p>responsive add -sm, -md, -lg, -xl</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th id="class">Class</th>
+            <th>Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>.m-custom</td>
+            <td class="">
+              <div class="m-custom">
+                custom 50px margin
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.my-custom</td>
+            <td class="">
+              <div class="my-custom">
+                top / bottom 18px margin
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.mx-custom</td>
+            <td class="">
+              <div class="mx-custom">
+                left / right 60px margin
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.mt-custom</td>
+            <td class="">
+              <div class="mt-custom">
+                10px margin top
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.mr-custom</td>
+            <td class="">
+              <div class="mr-custom">
+                20px margin right
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.mb-custom</td>
+            <td class="">
+              <div class="mb-custom">
+                30px margin bottom
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.ml-custom</td>
+            <td class="">
+              <div class="ml-custom">
+                40px margin left
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+
+      <hr />
+      <h2>Custom Gap spacing</h2>
+
+      <p>responsive add -sm, -md, -lg, -xl</p>
+
+      <table>
+        <thead>
+          <tr>
+            <th id="class">Class</th>
+            <th>Preview</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>.gap-custom</td>
+            <td class="">
+              <div class="dg gap-custom">
+                <div class="">
+                  custom gap 50
+                </div>
+                <div class="">
+                  custom gap 50
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.rg-custom</td>
+            <td class="">
+              <div class="dg rg-custom">
+                <div class="">
+                  custom row-gap 18
+                </div>
+                <div class="">
+                  custom row-gap 18
+                </div>
+              </div>
+            </td>
+          </tr>
+          <tr>
+            <td>.cg-custom</td>
+            <td class="">
+              <div class="dg gtc2 cg-custom">
+                <div class="">
+                  custom column-gap 60
+                </div>
+                <div class="">
+                  custom column-gap 60
+                </div>
+              </div>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </body>
 </html>

@@ -1,40 +1,75 @@
 .w8 {
-    width: 8px;
+  width: 0.5rem;
 }
 .w16 {
-    width: 16px;
+  width: 1rem;
 }
 .w24 {
-    width: 24px;
+  width: 1.5rem;
 }
 .w32 {
-    width: 32px;
+  width: 2rem;
 }
 .w40 {
-    width: 40px;
+  width: 2.5rem;
 }
 .w48 {
-    width: 48px;
+  width: 3rem;
 }
 .w56 {
-    width: 56px;
+  width: 3.5rem;
 }
 .w64 {
-    width: 64px;
+  width: 4rem;
 }
 .w72 {
-    width: 72px;
+  width: 4.5rem;
 }
 .w80 {
-    width: 80px;
+  width: 5rem;
 }
 .w100 {
-    width: 100px;
+  width: 6.25rem;
 }
 
-.wfull {
-    width: 100%;
+.w1pct {
+  width: 8.333333333333333%;
+}
+.w2pct {
+  width: 16.66666666666667%;
+}
+.w3pct {
+  width: 25%;
+}
+.w4pct {
+  width: 33.33333333333333%;
+}
+.w5pct {
+  width: 41.66666666666667%;
+}
+.w6pct {
+  width: 50%;
+}
+.w7pct {
+  width: 58.33333333333334%;
+}
+.w8pct {
+  width: 66.66666666666667%;
+}
+.w9pct {
+  width: 75%;
+}
+.w10pct {
+  width: 83.33333333333334%;
+}
+.w11pct {
+  width: 91.66666666666667%;
+}
+
+.wfull,
+.w12pct {
+  width: 100%;
 }
 .wa {
-    width: auto;
+  width: auto;
 }

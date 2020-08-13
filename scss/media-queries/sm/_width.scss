@@ -1,40 +1,75 @@
 .w8-sm {
-    width: 8px;
+  width: 0.5rem;
 }
 .w16-sm {
-    width: 16px;
+  width: 1rem;
 }
 .w24-sm {
-    width: 24px;
+  width: 1.5rem;
 }
 .w32-sm {
-    width: 32px;
+  width: 2rem;
 }
 .w40-sm {
-    width: 40px;
+  width: 2.5rem;
 }
 .w48-sm {
-    width: 48px;
+  width: 3rem;
 }
 .w56-sm {
-    width: 56px;
+  width: 3.5rem;
 }
 .w64-sm {
-    width: 64px;
+  width: 4rem;
 }
 .w72-sm {
-    width: 72px;
+  width: 4.5rem;
 }
 .w80-sm {
-    width: 80px;
+  width: 5rem;
 }
 .w100-sm {
-    width: 100px;
+  width: 6.25rem;
 }
 
-.wfull-sm {
-    width: 100%;
+.w1pct-sm {
+  width: 8.333333333333333%;
+}
+.w2pct-sm {
+  width: 16.66666666666667%;
+}
+.w3pct-sm {
+  width: 25%;
+}
+.w4pct-sm {
+  width: 33.33333333333333%;
+}
+.w5pct-sm {
+  width: 41.66666666666667%;
+}
+.w6pct-sm {
+  width: 50%;
+}
+.w7pct-sm {
+  width: 58.33333333333334%;
+}
+.w8pct-sm {
+  width: 66.66666666666667%;
+}
+.w9pct-sm {
+  width: 75%;
+}
+.w10pct-sm {
+  width: 83.33333333333334%;
+}
+.w11pct-sm {
+  width: 91.66666666666667%;
+}
+
+.wfull-sm,
+.w12pct-sm {
+  width: 100%;
 }
 .wa-sm {
-    width: auto;
+  width: auto;
 }

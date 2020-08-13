@@ -1,40 +1,75 @@
 .w8-lg {
-    width: 8px;
+  width: 0.5rem;
 }
 .w16-lg {
-    width: 16px;
+  width: 1rem;
 }
 .w24-lg {
-    width: 24px;
+  width: 1.5rem;
 }
 .w32-lg {
-    width: 32px;
+  width: 2rem;
 }
 .w40-lg {
-    width: 40px;
+  width: 2.5rem;
 }
 .w48-lg {
-    width: 48px;
+  width: 3rem;
 }
 .w56-lg {
-    width: 56px;
+  width: 3.5rem;
 }
 .w64-lg {
-    width: 64px;
+  width: 4rem;
 }
 .w72-lg {
-    width: 72px;
+  width: 4.5rem;
 }
 .w80-lg {
-    width: 80px;
+  width: 5rem;
 }
 .w100-lg {
-    width: 100px;
+  width: 6.25rem;
 }
 
-.wfull-lg {
-    width: 100%;
+.w1pct-lg {
+  width: 8.333333333333333%;
+}
+.w2pct-lg {
+  width: 16.66666666666667%;
+}
+.w3pct-lg {
+  width: 25%;
+}
+.w4pct-lg {
+  width: 33.33333333333333%;
+}
+.w5pct-lg {
+  width: 41.66666666666667%;
+}
+.w6pct-lg {
+  width: 50%;
+}
+.w7pct-lg {
+  width: 58.33333333333334%;
+}
+.w8pct-lg {
+  width: 66.66666666666667%;
+}
+.w9pct-lg {
+  width: 75%;
+}
+.w10pct-lg {
+  width: 83.33333333333334%;
+}
+.w11pct-lg {
+  width: 91.66666666666667%;
+}
+
+.wfull-lg,
+.w12pct-lg {
+  width: 100%;
 }
 .wa-lg {
-    width: auto;
+  width: auto;
 }
