@@ -1,124 +1,177 @@
 .animate-spin {
-    animation: spin 1s linear infinite;
+  animation: spin 1s linear infinite;
 }
 @keyframes spin {
-    from {
-        transform: rotate(0deg);
-    }
-    to {
-        transform: rotate(360deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .animate-bounce {
-    animation-name: bounce;
-    animation-timing-function: ease;
-    animation-duration: 2s;
-    animation-iteration-count: infinite;
+  animation-name: bounce;
+  animation-timing-function: ease;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
 }
 
 @keyframes bounce {
-    0% {
-        transform: scale(1, 1) translateY(0);
-    }
-    10% {
-        transform: scale(1.1, 0.9) translateY(0);
-    }
-    30% {
-        transform: scale(0.9, 1.1) translateY(-50px);
-    }
-    50% {
-        transform: scale(1, 1) translateY(0);
-    }
-    57% {
-        transform: scale(1, 1) translateY(-7px);
-    }
-    64% {
-        transform: scale(1, 1) translateY(0);
-    }
-    100% {
-        transform: scale(1, 1) translateY(0);
-    }
+  0% {
+    transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    transform: scale(1.1, 0.9) translateY(0);
+  }
+  30% {
+    transform: scale(0.9, 1.1) translateY(-50px);
+  }
+  50% {
+    transform: scale(1, 1) translateY(0);
+  }
+  57% {
+    transform: scale(1, 1) translateY(-7px);
+  }
+  64% {
+    transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    transform: scale(1, 1) translateY(0);
+  }
 }
 
 .animate-shake {
-    animation: shake 4.72s ease infinite;
+  animation: shake 4.72s ease infinite;
 }
 
 @keyframes shake {
-    0% {
-        transform: translate(0, 0);
-    }
-    1.78571% {
-        transform: translate(8px, 0);
-    }
-    3.57143% {
-        transform: translate(0, 0);
-    }
-    5.35714% {
-        transform: translate(8px, 0);
-    }
-    7.14286% {
-        transform: translate(0, 0);
-    }
-    8.92857% {
-        transform: translate(8px, 0);
-    }
-    10.71429% {
-        transform: translate(0, 0);
-    }
-    100% {
-        transform: translate(0, 0);
-    }
+  0% {
+    transform: translate(0, 0);
+  }
+  1.78571% {
+    transform: translate(8px, 0);
+  }
+  3.57143% {
+    transform: translate(0, 0);
+  }
+  5.35714% {
+    transform: translate(8px, 0);
+  }
+  7.14286% {
+    transform: translate(0, 0);
+  }
+  8.92857% {
+    transform: translate(8px, 0);
+  }
+  10.71429% {
+    transform: translate(0, 0);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
 }
 
 .animate-ring {
-    animation: ring 1s infinite ease-in-out;
+  animation: ring 1s infinite ease-in-out;
 }
 
 @keyframes ring {
-    0% {
-        -webkit-transform: rotate(0) scale(1) skew(1deg);
-    }
-    10% {
-        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
-    }
-    20% {
-        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
-    }
-    30% {
-        -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
-    }
-    40% {
-        -webkit-transform: rotate(25deg) scale(1) skew(1deg);
-    }
-    50% {
-        -webkit-transform: rotate(0) scale(1) skew(1deg);
-    }
-    100% {
-        -webkit-transform: rotate(0) scale(1) skew(1deg);
-    }
+  0% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  10% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  20% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  30% {
+    -webkit-transform: rotate(-25deg) scale(1) skew(1deg);
+  }
+  40% {
+    -webkit-transform: rotate(25deg) scale(1) skew(1deg);
+  }
+  50% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
+  100% {
+    -webkit-transform: rotate(0) scale(1) skew(1deg);
+  }
 }
 
 // UP DOWN
 
 .animate-up-down {
-    animation: up-down 1s ease 0s infinite normal none running;
+  animation: up-down 1s ease 0s infinite normal none running;
 }
 
 @keyframes up-down {
-    50% {
-        margin-top: -20px;
-    }
+  50% {
+    margin-top: -20px;
+  }
 }
 
 // Heartbeat
 .animate-heartbeat {
-    animation: heartbeat 0.5s infinite;
+  animation: heartbeat 0.5s infinite;
 }
 
 @keyframes heartbeat {
-    50% {
-        transform: scale(1.1);
+  50% {
+    transform: scale(1.1);
+  }
+}
+
+// Ticker
+
+.marquee {
+  animation: marquee 50s linear infinite;
+
+  span {
+    display: inline-block;
+    margin: 0 1%;
+  }
+  .green {
+    color: #0eec0e;
+    font-style: normal;
+  }
+  .peru {
+    display: inline-block;
+    margin-left: 5px;
+    width: 18px;
+    position: relative;
+    background-color: #fff;
+    height: 12px;
+    &:before,
+    &:after {
+      content: '';
+      display: inline-block;
+      width: 6px;
+      height: 12px;
+      background-color: red;
+      position: absolute;
+      top: 0;
     }
+    &:before {
+      right: 0;
+    }
+  }
+
+  &.hover-apsp {
+    &:hover {
+      animation-play-state: paused;
+    }
+  }
+}
+
+@keyframes marquee {
+  0% {
+    margin-left: 100%;
+    transform: translateX(0%);
+  }
+  100% {
+    margin-left: 0;
+    transform: translateX(-100%);
+  }
 }

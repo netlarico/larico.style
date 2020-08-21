@@ -1,69 +1,69 @@
-.rounded {
+.rounded-sm {
   border-radius: 0.25rem;
 }
-.rounded-8 {
+.rounded-8-sm {
   border-radius: 0.5rem;
 }
-.rounded-10 {
+.rounded-10-sm {
   border-radius: 0.625rem;
 }
 
-.rounded-t {
+.rounded-t-sm {
   border-top-left-radius: 0.25rem;
   border-top-right-radius: 0.25rem;
 }
-.rounded-t-8 {
+.rounded-t-8-sm {
   border-top-left-radius: 0.5rem;
   border-top-right-radius: 0.5rem;
 }
-.rounded-t-10 {
+.rounded-t-10-sm {
   border-top-left-radius: 0.625rem;
   border-top-right-radius: 0.625rem;
 }
 
-.rounded-r {
+.rounded-r-sm {
   border-top-right-radius: 0.25rem;
   border-bottom-right-radius: 0.25rem;
 }
 
-.rounded-r-8 {
+.rounded-r-8-sm {
   border-top-right-radius: 0.5rem;
   border-bottom-right-radius: 0.3125rem;
 }
-.rounded-r-10 {
+.rounded-r-10-sm {
   border-top-right-radius: 0.625rem;
   border-bottom-right-radius: 0.625rem;
 }
 
-.rounded-b {
+.rounded-b-sm {
   border-bottom-right-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
-.rounded-b-8 {
+.rounded-b-8-sm {
   border-bottom-right-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
-.rounded-b-10 {
+.rounded-b-10-sm {
   border-bottom-right-radius: 0.625rem;
   border-bottom-left-radius: 0.625rem;
 }
 
-.rounded-l {
+.rounded-l-sm {
   border-top-left-radius: 0.25rem;
   border-bottom-left-radius: 0.25rem;
 }
-.rounded-l-8 {
+.rounded-l-8-sm {
   border-top-left-radius: 0.5rem;
   border-bottom-left-radius: 0.5rem;
 }
-.rounded-l-10 {
+.rounded-l-10-sm {
   border-top-left-radius: 0.625rem;
   border-bottom-left-radius: 0.625rem;
 }
 
-.rounded-full {
+.rounded-full-sm {
   border-radius: 9999px;
 }
-.circle {
+.circle-sm {
   border-radius: 100%;
 }
