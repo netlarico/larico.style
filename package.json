@@ -1,6 +1,6 @@
 {
     "name": "lstyle",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "larico.style CSS Framework",
     "main": "dist/lstyle.js",
     "style": "dist/lstyle.css",
