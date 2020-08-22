@@ -4353,6 +4353,10 @@ img {
   width: auto;
 }
 
+.wfc {
+  width: fit-content;
+}
+
 .h0 {
   height: 0;
 }
@@ -10419,6 +10423,9 @@ pre {
   .wa-sm {
     width: auto;
   }
+  .wfc-sm {
+    width: fit-content;
+  }
   .h0-sm {
     height: 0;
   }
@@ -14757,6 +14764,9 @@ pre {
   }
   .wa-md {
     width: auto;
+  }
+  .wfc-md {
+    width: fit-content;
   }
   .h0-md {
     height: 0;
@@ -19097,6 +19107,9 @@ pre {
   .wa-lg {
     width: auto;
   }
+  .wfc-lg {
+    width: fit-content;
+  }
   .h0-lg {
     height: 0;
   }
@@ -23435,6 +23448,9 @@ pre {
   }
   .wa-xl {
     width: auto;
+  }
+  .wfc-xl {
+    width: fit-content;
   }
   .h0-xl {
     height: 0;
