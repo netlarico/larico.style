@@ -4353,6 +4353,10 @@ img {
   width: auto;
 }
 
+.h0 {
+  height: 0;
+}
+
 .h8 {
   height: 8px;
 }
@@ -10408,6 +10412,9 @@ pre {
   .wa-sm {
     width: auto;
   }
+  .h0-sm {
+    height: 0;
+  }
   .h8-sm {
     height: 8px;
   }
@@ -14740,6 +14747,9 @@ pre {
   }
   .wa-md {
     width: auto;
+  }
+  .h0-md {
+    height: 0;
   }
   .h8-md {
     height: 8px;
@@ -19074,6 +19084,9 @@ pre {
   .wa-lg {
     width: auto;
   }
+  .h0-lg {
+    height: 0;
+  }
   .h8-lg {
     height: 8px;
   }
@@ -23406,6 +23419,9 @@ pre {
   }
   .wa-xl {
     width: auto;
+  }
+  .h0-xl {
+    height: 0;
   }
   .h8-xl {
     height: 8px;
