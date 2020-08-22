@@ -4220,6 +4220,10 @@ img {
   font-style: normal;
 }
 
+.filter-i1 {
+  filter: invert(1);
+}
+
 .ls1 {
   letter-spacing: 0.5008px;
 }
