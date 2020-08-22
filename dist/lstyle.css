@@ -5496,6 +5496,10 @@ img {
   border-radius: 100%;
 }
 
+.rounded-0 {
+  border-radius: 0;
+}
+
 .tal {
   text-align: left;
 }
@@ -10280,6 +10284,9 @@ pre {
   .circle-sm {
     border-radius: 100%;
   }
+  .rounded-0-sm {
+    border-radius: 0;
+  }
   .tal-sm {
     text-align: left;
   }
@@ -14649,6 +14656,9 @@ pre {
   .circle-md {
     border-radius: 100%;
   }
+  .rounded-0-md {
+    border-radius: 0;
+  }
   .dn-md {
     display: none;
   }
@@ -18969,6 +18979,9 @@ pre {
   }
   .circle-lg {
     border-radius: 100%;
+  }
+  .rounded-0-lg {
+    border-radius: 0;
   }
   .ls1-lg {
     letter-spacing: 0.5008px;
@@ -23305,6 +23318,9 @@ pre {
   }
   .circle-xl {
     border-radius: 100%;
+  }
+  .rounded-0-xl {
+    border-radius: 0;
   }
   .ls1-xl {
     letter-spacing: 0.5008px;
