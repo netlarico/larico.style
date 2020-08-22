@@ -77,6 +77,10 @@ img {
   color: var(--tertiary-color, #fed766);
 }
 
+.quaternary {
+  color: var(--quaternary-color, #3e54a3);
+}
+
 .transparent {
   color: transparent;
 }
