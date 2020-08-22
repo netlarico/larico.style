@@ -4261,47 +4261,47 @@ img {
 }
 
 .w8 {
-  width: 0.5rem;
+  width: 8px;
 }
 
 .w16 {
-  width: 1rem;
+  width: 16px;
 }
 
 .w24 {
-  width: 1.5rem;
+  width: 24px;
 }
 
 .w32 {
-  width: 2rem;
+  width: 32px;
 }
 
 .w40 {
-  width: 2.5rem;
+  width: 40px;
 }
 
 .w48 {
-  width: 3rem;
+  width: 48px;
 }
 
 .w56 {
-  width: 3.5rem;
+  width: 56px;
 }
 
 .w64 {
-  width: 4rem;
+  width: 64px;
 }
 
 .w72 {
-  width: 4.5rem;
+  width: 72px;
 }
 
 .w80 {
-  width: 5rem;
+  width: 80px;
 }
 
 .w100 {
-  width: 6.25rem;
+  width: 100px;
 }
 
 .w1pct {
@@ -5595,35 +5595,35 @@ img {
   white-space: nowrap;
 }
 
-.o0 {
+.opacity0 {
   opacity: 0;
 }
 
-.o25 {
+.opacity25 {
   opacity: 0.25;
 }
 
-.o50 {
+.opacity50 {
   opacity: 0.5;
 }
 
-.o75 {
+.opacity75 {
   opacity: 0.75;
 }
 
-.o85 {
+.opacity85 {
   opacity: 0.85;
 }
 
-.o95 {
+.opacity95 {
   opacity: 0.95;
 }
 
-.o100 {
+.opacity100 {
   opacity: 1;
 }
 
-.o-hover:hover {
+.opacity-hover1:hover {
   opacity: 1;
 }
 
@@ -5849,7 +5849,7 @@ img {
   appearance: none;
 }
 
-.o0 {
+.outline0 {
   outline: 0;
 }
 
@@ -10355,37 +10355,37 @@ pre {
     letter-spacing: 0.25rem;
   }
   .w8-sm {
-    width: 0.5rem;
+    width: 8px;
   }
   .w16-sm {
-    width: 1rem;
+    width: 16px;
   }
   .w24-sm {
-    width: 1.5rem;
+    width: 24px;
   }
   .w32-sm {
-    width: 2rem;
+    width: 32px;
   }
   .w40-sm {
-    width: 2.5rem;
+    width: 40px;
   }
   .w48-sm {
-    width: 3rem;
+    width: 48px;
   }
   .w56-sm {
-    width: 3.5rem;
+    width: 56px;
   }
   .w64-sm {
-    width: 4rem;
+    width: 64px;
   }
   .w72-sm {
-    width: 4.5rem;
+    width: 72px;
   }
   .w80-sm {
-    width: 5rem;
+    width: 80px;
   }
   .w100-sm {
-    width: 6.25rem;
+    width: 100px;
   }
   .w1pct-sm {
     width: 8.333333333333333%;
@@ -14697,37 +14697,37 @@ pre {
     clear: both;
   }
   .w8-md {
-    width: 0.5rem;
+    width: 8px;
   }
   .w16-md {
-    width: 1rem;
+    width: 16px;
   }
   .w24-md {
-    width: 1.5rem;
+    width: 24px;
   }
   .w32-md {
-    width: 2rem;
+    width: 32px;
   }
   .w40-md {
-    width: 2.5rem;
+    width: 40px;
   }
   .w48-md {
-    width: 3rem;
+    width: 48px;
   }
   .w56-md {
-    width: 3.5rem;
+    width: 56px;
   }
   .w64-md {
-    width: 4rem;
+    width: 64px;
   }
   .w72-md {
-    width: 4.5rem;
+    width: 72px;
   }
   .w80-md {
-    width: 5rem;
+    width: 80px;
   }
   .w100-md {
-    width: 6.25rem;
+    width: 100px;
   }
   .w1pct-md {
     width: 8.333333333333333%;
@@ -19039,37 +19039,37 @@ pre {
     clear: both;
   }
   .w8-lg {
-    width: 0.5rem;
+    width: 8px;
   }
   .w16-lg {
-    width: 1rem;
+    width: 16px;
   }
   .w24-lg {
-    width: 1.5rem;
+    width: 24px;
   }
   .w32-lg {
-    width: 2rem;
+    width: 32px;
   }
   .w40-lg {
-    width: 2.5rem;
+    width: 40px;
   }
   .w48-lg {
-    width: 3rem;
+    width: 48px;
   }
   .w56-lg {
-    width: 3.5rem;
+    width: 56px;
   }
   .w64-lg {
-    width: 4rem;
+    width: 64px;
   }
   .w72-lg {
-    width: 4.5rem;
+    width: 72px;
   }
   .w80-lg {
-    width: 5rem;
+    width: 80px;
   }
   .w100-lg {
-    width: 6.25rem;
+    width: 100px;
   }
   .w1pct-lg {
     width: 8.333333333333333%;
@@ -23381,37 +23381,37 @@ pre {
     clear: both;
   }
   .w8-xl {
-    width: 0.5rem;
+    width: 8px;
   }
   .w16-xl {
-    width: 1rem;
+    width: 16px;
   }
   .w24-xl {
-    width: 1.5rem;
+    width: 24px;
   }
   .w32-xl {
-    width: 2rem;
+    width: 32px;
   }
   .w40-xl {
-    width: 2.5rem;
+    width: 40px;
   }
   .w48-xl {
-    width: 3rem;
+    width: 48px;
   }
   .w56-xl {
-    width: 3.5rem;
+    width: 56px;
   }
   .w64-xl {
-    width: 4rem;
+    width: 64px;
   }
   .w72-xl {
-    width: 4.5rem;
+    width: 72px;
   }
   .w80-xl {
-    width: 5rem;
+    width: 80px;
   }
   .w100-xl {
-    width: 6.25rem;
+    width: 100px;
   }
   .w1pct-xl {
     width: 8.333333333333333%;

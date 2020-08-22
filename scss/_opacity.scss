@@ -1,26 +1,26 @@
-.o0 {
-    opacity: 0;
+.opacity0 {
+  opacity: 0;
 }
-.o25 {
-    opacity: 0.25;
+.opacity25 {
+  opacity: 0.25;
 }
-.o50 {
-    opacity: 0.5;
+.opacity50 {
+  opacity: 0.5;
 }
-.o75 {
-    opacity: 0.75;
+.opacity75 {
+  opacity: 0.75;
 }
-.o85 {
-    opacity: 0.85;
+.opacity85 {
+  opacity: 0.85;
 }
-.o95 {
-    opacity: 0.95;
+.opacity95 {
+  opacity: 0.95;
 }
-.o100 {
+.opacity100 {
+  opacity: 1;
+}
+.opacity-hover1 {
+  &:hover {
     opacity: 1;
-}
-.o-hover {
-    &:hover {
-        opacity: 1;
-    }
+  }
 }
