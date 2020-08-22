@@ -5416,6 +5416,10 @@ img {
   border-collapse: separate;
 }
 
+.rounded-0 {
+  border-radius: 0;
+}
+
 .rounded {
   border-radius: 0.25rem;
 }
@@ -5494,10 +5498,6 @@ img {
 
 .circle {
   border-radius: 100%;
-}
-
-.rounded-0 {
-  border-radius: 0;
 }
 
 .tal {
@@ -10221,6 +10221,9 @@ pre {
   .lhn-sm {
     line-height: normal;
   }
+  .rounded-0-sm {
+    border-radius: 0;
+  }
   .rounded-sm {
     border-radius: 0.25rem;
   }
@@ -10283,9 +10286,6 @@ pre {
   }
   .circle-sm {
     border-radius: 100%;
-  }
-  .rounded-0-sm {
-    border-radius: 0;
   }
   .tal-sm {
     text-align: left;
@@ -14593,6 +14593,9 @@ pre {
   .talr-md {
     text-align-last: right;
   }
+  .rounded-0-md {
+    border-radius: 0;
+  }
   .rounded-md {
     border-radius: 0.25rem;
   }
@@ -14655,9 +14658,6 @@ pre {
   }
   .circle-md {
     border-radius: 100%;
-  }
-  .rounded-0-md {
-    border-radius: 0;
   }
   .dn-md {
     display: none;
@@ -18917,6 +18917,9 @@ pre {
   .talr-lg {
     text-align-last: right;
   }
+  .rounded-0-lg {
+    border-radius: 0;
+  }
   .rounded-lg {
     border-radius: 0.25rem;
   }
@@ -18979,9 +18982,6 @@ pre {
   }
   .circle-lg {
     border-radius: 100%;
-  }
-  .rounded-0-lg {
-    border-radius: 0;
   }
   .ls1-lg {
     letter-spacing: 0.5008px;
@@ -23256,6 +23256,9 @@ pre {
   .lhn-xl {
     line-height: normal;
   }
+  .rounded-0-xl {
+    border-radius: 0;
+  }
   .rounded-xl {
     border-radius: 0.25rem;
   }
@@ -23318,9 +23321,6 @@ pre {
   }
   .circle-xl {
     border-radius: 100%;
-  }
-  .rounded-0-xl {
-    border-radius: 0;
   }
   .ls1-xl {
     letter-spacing: 0.5008px;
