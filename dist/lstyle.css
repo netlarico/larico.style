@@ -3216,6 +3216,10 @@ img {
   display: table;
 }
 
+.di {
+  display: inherit;
+}
+
 .dg {
   display: grid;
 }
@@ -10329,6 +10333,9 @@ pre {
   .dt-sm {
     display: table;
   }
+  .di-sm {
+    display: inherit;
+  }
   .fr-sm {
     float: right;
   }
@@ -14689,6 +14696,9 @@ pre {
   .dt-md {
     display: table;
   }
+  .di-md {
+    display: inherit;
+  }
   .fr-md {
     float: right;
   }
@@ -19034,6 +19044,9 @@ pre {
   .dt-lg {
     display: table;
   }
+  .di-lg {
+    display: inherit;
+  }
   .fr-lg {
     float: right;
   }
@@ -23378,6 +23391,9 @@ pre {
   }
   .dt-xl {
     display: table;
+  }
+  .di-xl {
+    display: inherit;
   }
   .fr-xl {
     float: right;
