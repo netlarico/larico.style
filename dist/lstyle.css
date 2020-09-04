@@ -4461,8 +4461,12 @@ img {
   max-width: 33.33333333333333%;
 }
 
-.mwi {
+.maxwi {
   max-width: inherit;
+}
+
+.maxwfc {
+  max-width: fit-content;
 }
 
 .m-custom {
@@ -10505,8 +10509,11 @@ pre {
   .mw33\%-sm {
     max-width: 33.33333333333333%;
   }
-  .mwi-sm {
+  .maxwi-sm {
     max-width: inherit;
+  }
+  .maxwfc-sm {
+    max-width: fit-content;
   }
   .opt-sm {
     object-position: top;
@@ -14847,8 +14854,11 @@ pre {
   .mw33\%-md {
     max-width: 33.33333333333333%;
   }
-  .mwi-md {
+  .maxwi-md {
     max-width: inherit;
+  }
+  .maxwfc-md {
+    max-width: fit-content;
   }
   .opt-md {
     object-position: top;
@@ -19189,8 +19199,11 @@ pre {
   .mw33\%-lg {
     max-width: 33.33333333333333%;
   }
-  .mwi-lg {
+  .maxwi-lg {
     max-width: inherit;
+  }
+  .maxwfc-lg {
+    max-width: fit-content;
   }
   .opt-lg {
     object-position: top;
@@ -23531,8 +23544,11 @@ pre {
   .mw33\%-xl {
     max-width: 33.33333333333333%;
   }
-  .mwi-xl {
+  .maxwi-xl {
     max-width: inherit;
+  }
+  .maxwfc-xl {
+    max-width: fit-content;
   }
   .opt-xl {
     object-position: top;

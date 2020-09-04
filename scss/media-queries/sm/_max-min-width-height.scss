@@ -1,39 +1,43 @@
 .minh0-sm {
-    min-height: 0;
+  min-height: 0;
 }
 
 .minhfull-sm {
-    min-height: 100%;
+  min-height: 100%;
 }
 
 .minh100vh-sm {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .maxhfull-sm {
-    max-height: 100%;
+  max-height: 100%;
 }
 .maxh100vh-sm {
-    max-height: 100vh;
+  max-height: 100vh;
 }
 
 .minw0-sm {
-    min-width: 0;
+  min-width: 0;
 }
 
 .minwfull-sm {
-    min-width: 100%;
+  min-width: 100%;
 }
 .maxwfull-sm {
-    max-width: 100%;
+  max-width: 100%;
 }
 
 .mw50\%-sm {
-    max-width: 50%;
+  max-width: 50%;
 }
 .mw33\%-sm {
-    max-width: 33.33333333333333%;
+  max-width: 33.33333333333333%;
 }
-.mwi-sm {
-    max-width: inherit;
+
+.maxwi-sm {
+  max-width: inherit;
+}
+.maxwfc-sm {
+  max-width: fit-content;
 }
